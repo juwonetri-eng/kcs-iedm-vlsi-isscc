@@ -88,6 +88,20 @@
     <div id="chart-kw" class="plot"></div>
   </section>
 
+  <section class="card">
+    <div class="sec-head"><span class="num">06</span>
+      <div><h2>기관 분석 — 해외 학회 속 한국 기관</h2>
+      <p>IEDM·ISSCC·VLSI 논문 중 <b>한국 기관(기업·대학·연구소) 참여 논문</b> 비중(저자 소속 기준,
+         공동연구 포함). "영역별 참여율"이 낮은 곳 = 한국이 국제적으로도 약한 분야.</p></div>
+    </div>
+    <div class="toggle" id="toggle-inst">
+      <button data-g="area" class="on">영역별 한국 참여율</button>
+      <button data-g="inst">한국 기관 랭킹</button>
+      <button data-g="trend">연도별 참여율 추이</button>
+    </div>
+    <div id="chart-inst" class="plot"></div>
+  </section>
+
   <footer>
     <p>데이터: IEDM·ISSCC·VLSI·KCS 프로그램 PDF에서 논문 추출 후 소속 세션의 공통분류를 상속(규칙 기반).
        KCS 2025는 OCR 복원. 생성: <code>scripts/build_dashboard_data.py</code> → <code>js/data.js</code>.</p>
@@ -96,6 +110,7 @@
 
 <script src="js/data.js"></script>
 <script src="js/keywords.js"></script>
+<script src="js/institutions.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

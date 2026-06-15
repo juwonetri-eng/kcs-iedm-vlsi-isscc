@@ -229,14 +229,72 @@
     }), CONFIG);
   }
 
+  /* ---------- 06. institution analysis (Korea share in overseas) ---------- */
+  const areaTier = {};
+  A.forEach(a => { areaTier[a.code] = a.tier; });
+  function drawInst(view) {
+    if (typeof INST === "undefined") return;
+    if (view === "inst") {
+      const tcol = { company: "#dc2626", university: "#2563eb", institute: "#16a34a" };
+      const tname = { company: "기업", university: "대학", institute: "연구소" };
+      const r = INST.topInstitutions.slice(0, 16).reverse();
+      const types = r.map(([n]) => INST.instTypeName[n] || "university");
+      Plotly.newPlot("chart-inst", [{
+        type: "bar", orientation: "h", y: r.map(x => x[0]), x: r.map(x => x[1]),
+        marker: { color: types.map(t => tcol[t]) },
+        text: r.map(x => x[1]), textposition: "auto",
+        hovertext: r.map((x, i) => `${x[0]} (${tname[types[i]]})<br>해외 학회 ${x[1]}편 참여`), hoverinfo: "text",
+      }], Object.assign({}, layoutBase, {
+        xaxis: { title: "해외 학회 참여 논문 수 (IEDM+ISSCC+VLSI)" },
+        yaxis: { automargin: true, tickfont: { size: 11 } }, margin: { l: 130, r: 20, t: 16, b: 44 },
+        title: { text: "🔴기업 🔵대학 🟢연구소", font: { size: 11 }, x: 0.99, xanchor: "right", y: 0.98 },
+      }), CONFIG);
+      return;
+    }
+    if (view === "trend") {
+      const confs = ["IEDM", "ISSCC", "VLSI"];
+      const col = { IEDM: "#2563eb", ISSCC: "#ea580c", VLSI: "#16a34a" };
+      const traces = confs.map(c => {
+        const yrs = Object.keys(INST.korByConfYear[c]).sort();
+        return {
+          type: "scatter", mode: "lines+markers", name: c, line: { color: col[c], width: 2.5 }, marker: { size: 7 },
+          x: yrs, y: yrs.map(y => { const d = INST.korByConfYear[c][y]; return d.tot ? +(100 * d.kor / d.tot).toFixed(1) : 0; }),
+        };
+      });
+      Plotly.newPlot("chart-inst", traces, Object.assign({}, layoutBase, {
+        xaxis: { title: "개최연도", type: "category" }, yaxis: { title: "한국 기관 참여율 (%)", rangemode: "tozero" },
+        legend: { orientation: "h", y: 1.1 }, margin: { l: 56, r: 24, t: 20, b: 40 },
+      }), CONFIG);
+      return;
+    }
+    // area view: Korea participation rate per area (overseas), sorted desc
+    const rows = Object.keys(INST.korByArea).map(a => {
+      const d = INST.korByArea[a]; return { a, rate: 100 * d.kor / d.tot, kor: d.kor, tot: d.tot };
+    }).filter(r => r.tot >= 8).sort((x, y) => x.rate - y.rate);
+    Plotly.newPlot("chart-inst", [{
+      type: "bar", orientation: "h", y: rows.map(r => r.a + " " + (INST.areaNames[r.a] || "")),
+      x: rows.map(r => +r.rate.toFixed(1)),
+      marker: { color: rows.map(r => TIERCOL[areaTier[r.a]] || "#888") },
+      text: rows.map(r => r.rate.toFixed(0) + "%"), textposition: "auto",
+      hovertext: rows.map(r => `${INST.areaNames[r.a]}<br>한국 ${r.kor}/${r.tot}편 (${r.rate.toFixed(1)}%)`), hoverinfo: "text",
+    }], Object.assign({}, layoutBase, {
+      xaxis: { title: "해외 학회 내 한국 기관 참여율 (%)" },
+      yaxis: { automargin: true, tickfont: { size: 10 } }, margin: { l: 250, r: 20, t: 16, b: 44 },
+      shapes: [{ type: "line", x0: 21, x1: 21, y0: -0.5, y1: rows.length - 0.5, line: { color: "#94a3b8", dash: "dash" } }],
+      annotations: [{ x: 21, y: rows.length - 0.5, text: "전체평균 21%", showarrow: false, font: { size: 10, color: "#64748b" }, yanchor: "bottom" }],
+    }), CONFIG);
+  }
+
   wire("toggle-scatter", g => { curGroup = g; drawScatter(); });
   wire("toggle-scatter-dim", g => { curDim = g; drawScatter(); });
   wire("toggle-trend", drawTrend);
   wire("toggle-confyear", drawConfYear);
   const hasKW = typeof KW !== "undefined";
   if (hasKW) wire("toggle-kw", drawKw);
+  if (typeof INST !== "undefined") wire("toggle-inst", drawInst);
   drawScatter();
   drawTrend("all");
   drawConfYear("IEDM");
   if (hasKW) drawKw("gap");
+  if (typeof INST !== "undefined") drawInst("area");
 })();
