@@ -144,8 +144,52 @@
       fn(e.target.dataset.g);
     });
   }
+  /* ---------- 04. keyword analysis (国내 vs 해외) ---------- */
+  function drawKw(view) {
+    const labels = KW.labels;
+    const dTot = KW.groupTotalDom, oTot = KW.groupTotalOvs;
+    const rows = labels.map(l => {
+      const d = (KW.hitsGroup[l] || {}).domestic || 0;
+      const o = (KW.hitsGroup[l] || {}).overseas || 0;
+      return { l, d, o, dShare: 100 * d / dTot, oShare: 100 * o / oTot, tot: d + o };
+    }).filter(r => r.tot >= 8);                 // drop very rare keywords
+
+    if (view === "top") {
+      const r = rows.slice().sort((a, b) => a.tot - b.tot).slice(-24);
+      Plotly.newPlot("chart-kw", [
+        { type: "bar", orientation: "h", name: "국내 KCS", y: r.map(x => x.l), x: r.map(x => x.d),
+          marker: { color: "#2563eb" }, hovertemplate: "%{y}<br>국내 %{x} 적중<extra></extra>" },
+        { type: "bar", orientation: "h", name: "해외 3대", y: r.map(x => x.l), x: r.map(x => x.o),
+          marker: { color: "#ea580c" }, hovertemplate: "%{y}<br>해외 %{x} 적중<extra></extra>" },
+      ], Object.assign({}, layoutBase, {
+        barmode: "stack", xaxis: { title: "키워드 적중 수 (제목)" },
+        yaxis: { automargin: true, tickfont: { size: 11 } },
+        legend: { orientation: "h", y: 1.05 }, margin: { l: 170, r: 20, t: 30, b: 44 },
+      }), CONFIG);
+      return;
+    }
+    // gap view: domestic share% − overseas share%
+    const r = rows.slice().sort((a, b) => (a.dShare - a.oShare) - (b.dShare - b.oShare));
+    const y = r.map(x => x.l), x = r.map(x => +(x.dShare - x.oShare).toFixed(2));
+    Plotly.newPlot("chart-kw", [{
+      type: "bar", orientation: "h", x, y, marker: { color: x.map(v => v >= 0 ? "#2563eb" : "#ea580c") },
+      hovertext: r.map(x => `<b>${x.l}</b><br>국내 ${x.dShare.toFixed(1)}% (${x.d})<br>해외 ${x.oShare.toFixed(1)}% (${x.o})`),
+      hoverinfo: "text",
+    }], Object.assign({}, layoutBase, {
+      xaxis: { title: "국내% − 해외%  (키워드 적중 비중, pp)", zeroline: true, zerolinecolor: "#94a3b8", zerolinewidth: 2 },
+      yaxis: { automargin: true, tickfont: { size: 11 } }, margin: { l: 170, r: 20, t: 30, b: 44 },
+      annotations: [
+        { x: 0, y: 1.03, xref: "paper", yref: "paper", text: "← 해외 집중", showarrow: false, font: { color: "#ea580c", size: 12 } },
+        { x: 1, y: 1.03, xref: "paper", yref: "paper", text: "국내 집중 →", showarrow: false, font: { color: "#2563eb", size: 12 }, xanchor: "right" },
+      ],
+    }), CONFIG);
+  }
+
   wire("toggle-scatter", drawScatter);
   wire("toggle-trend", drawTrend);
+  const hasKW = typeof KW !== "undefined";
+  if (hasKW) wire("toggle-kw", drawKw);
   drawScatter("all");
   drawTrend("all");
+  if (hasKW) drawKw("gap");
 })();
