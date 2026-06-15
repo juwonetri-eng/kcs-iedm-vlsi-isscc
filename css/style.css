@@ -39,6 +39,7 @@ main{padding:28px 0 60px}
 #chart-gap{height:620px}
 #chart-scatter{height:560px}
 #chart-trend{height:520px}
+#chart-confyear{height:520px}
 #chart-kw{height:640px}
 
 footer{color:var(--muted);font-size:12px;padding:8px 2px 0}

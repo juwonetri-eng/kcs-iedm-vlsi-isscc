@@ -144,7 +144,26 @@
       fn(e.target.dataset.g);
     });
   }
-  /* ---------- 04. keyword analysis (国내 vs 해외) ---------- */
+  /* ---------- 04. per-conference year trend ---------- */
+  function drawConfYear(conf) {
+    const years = DASH.confYears[conf];
+    const grid = DASH.byConfYear[conf];                 // area -> {year:count}
+    const colTot = years.map(y => A.reduce((s, a) => s + (grid[a.code][y] || 0), 0));
+    const traces = A.map(a => ({
+      type: "scatter", mode: "lines+markers", name: codeName(a),
+      x: years,
+      y: years.map((y, i) => colTot[i] ? +(100 * (grid[a.code][y] || 0) / colTot[i]).toFixed(2) : 0),
+      line: { color: TIERCOL[a.tier], width: 2 }, marker: { size: 6 }, legendgroup: a.tier,
+    }));
+    Plotly.newPlot("chart-confyear", traces, Object.assign({}, layoutBase, {
+      xaxis: { title: conf + " 개최연도", type: "category" },
+      yaxis: { title: UL + " 비중 (%)" },
+      legend: { font: { size: 10 } }, margin: { l: 56, r: 200, t: 16, b: 40 },
+      hovermode: "closest",
+    }), CONFIG);
+  }
+
+  /* ---------- 05. keyword analysis (国내 vs 해외) ---------- */
   function drawKw(view) {
     const labels = KW.labels;
     const dTot = KW.groupTotalDom, oTot = KW.groupTotalOvs;
@@ -187,9 +206,11 @@
 
   wire("toggle-scatter", drawScatter);
   wire("toggle-trend", drawTrend);
+  wire("toggle-confyear", drawConfYear);
   const hasKW = typeof KW !== "undefined";
   if (hasKW) wire("toggle-kw", drawKw);
   drawScatter("all");
   drawTrend("all");
+  drawConfYear("IEDM");
   if (hasKW) drawKw("gap");
 })();

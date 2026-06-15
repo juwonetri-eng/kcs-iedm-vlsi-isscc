@@ -58,6 +58,21 @@
 
   <section class="card">
     <div class="sec-head"><span class="num">04</span>
+      <div><h2>학회별 연도 트렌드</h2>
+      <p>한 학회 <b>내부</b>의 연도별 기술영역 비중(%) 추이. 학회를 선택하세요.
+         (개최월: VLSI 6월 · IEDM 12월 · ISSCC 2월 · KCS 1~2월)</p></div>
+    </div>
+    <div class="toggle" id="toggle-confyear">
+      <button data-g="IEDM" class="on">IEDM</button>
+      <button data-g="ISSCC">ISSCC</button>
+      <button data-g="VLSI">VLSI</button>
+      <button data-g="KCS">KCS</button>
+    </div>
+    <div id="chart-confyear" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">05</span>
       <div><h2>키워드 분석 (국내 vs 해외)</h2>
       <p>논문 제목에서 반도체 기술 키워드(약 55종)를 매칭. 각 키워드 비중은 그룹별
          <b>총 키워드 적중 수</b> 기준으로 정규화(저자줄·OCR 노이즈는 적중 0이라 무영향).</p></div>
