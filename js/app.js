@@ -258,6 +258,23 @@
       return { l, d, o, dShare: 100 * d / dTot, oShare: 100 * o / oTot, tot: d + o };
     }).filter(r => r.tot >= 8);                 // drop very rare keywords
 
+    if (view === "trend") {
+      const seasons = KW.seasons;
+      const tot = seasons.map(s => KW.labels.reduce((acc, l) =>
+        acc + (KW.hitsSeasonDom[l][s] || 0) + (KW.hitsSeasonOvs[l][s] || 0), 0));
+      const top = KW.labels.map(l => ({ l, n: (KW.hitsGroup[l].domestic || 0) + (KW.hitsGroup[l].overseas || 0) }))
+        .sort((a, b) => b.n - a.n).slice(0, 10).map(x => x.l);
+      const traces = top.map(l => ({
+        type: "scatter", mode: "lines+markers", name: l, x: seasons,
+        y: seasons.map((s, i) => tot[i] ? +(100 * ((KW.hitsSeasonDom[l][s] || 0) + (KW.hitsSeasonOvs[l][s] || 0)) / tot[i]).toFixed(2) : 0),
+        line: { width: 2 }, marker: { size: 6 },
+      }));
+      Plotly.newPlot("chart-kw", traces, Object.assign({}, layoutBase, {
+        xaxis: { title: "시즌" }, yaxis: { title: "키워드 적중 비중 (%)" },
+        legend: { font: { size: 10 } }, margin: { l: 56, r: 160, t: 16, b: 40 },
+      }), CONFIG);
+      return;
+    }
     if (view === "top") {
       const r = rows.slice().sort((a, b) => a.tot - b.tot).slice(-24);
       Plotly.newPlot("chart-kw", [

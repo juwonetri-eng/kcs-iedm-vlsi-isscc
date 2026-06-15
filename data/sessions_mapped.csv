@@ -1,0 +1,623 @@
+﻿conference,year,season,session_id,track,category_code,category_name,tier1,area_code,area_name,session_title,source
+IEDM,2023,S2023-24,2,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Gate-All-Around and New Channel Material Devices,IEDM_2023.txt
+IEDM,2023,S2023-24,3,,MS,Modeling and Simulation,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,2-D materials for advanced logic and quantum applications,IEDM_2023.txt
+IEDM,2023,S2023-24,4,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Protection from ESD, Thermal Runaway and",IEDM_2023.txt
+IEDM,2023,S2023-24,5,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Neuromorphic Hardware,IEDM_2023.txt
+IEDM,2023,S2023-24,6,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,DRAM,IEDM_2023.txt
+IEDM,2023,S2023-24,7,Focus,NC/EDT/SMB,(multi),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,SMB/NC/EDT - Focus Session,IEDM_2023.txt
+IEDM,2023,S2023-24,8,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Advanced Photonics for Image,IEDM_2023.txt
+IEDM,2023,S2023-24,9,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D6,"Power, RF & Analog Devices",GaN Power Devices,IEDM_2023.txt
+IEDM,2023,S2023-24,10,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Low Dimensional Material Device,IEDM_2023.txt
+IEDM,2023,S2023-24,11,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric-based Memory Technology,IEDM_2023.txt
+IEDM,2023,S2023-24,12,,NC,Neuromorphic Computing,Devices & Process Technology,D6,"Power, RF & Analog Devices",Bayesian networks and physical unclonable functions,IEDM_2023.txt
+IEDM,2023,S2023-24,13,,ALT,Advanced Logic Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Interconnect and Sequential 3D Stacking,IEDM_2023.txt
+IEDM,2023,S2023-24,14,,EDT,Emerging Device and Compute Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Emerging devices for AI/Quantum,IEDM_2023.txt
+IEDM,2023,S2023-24,15,Focus,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,"Logic, Memory, Package and System Technologies for Future",IEDM_2023.txt
+IEDM,2023,S2023-24,16,,MS,Modeling and Simulation,Devices & Process Technology,D2,Memory Devices & Technology,"First Principles Transport Modeling for Logic, Memory, and",IEDM_2023.txt
+IEDM,2023,S2023-24,17,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS for Communication & Sensing,IEDM_2023.txt
+IEDM,2023,S2023-24,18,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Advances in Ferroelectric Devices,IEDM_2023.txt
+IEDM,2023,S2023-24,19,Focus,ALT,Advanced Logic Technology,Devices & Process Technology,D2,Memory Devices & Technology,Focus Session - 3D Stacking for Next-Generation Logic & Memory,IEDM_2023.txt
+IEDM,2023,S2023-24,20,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Emerging Photodetectors,IEDM_2023.txt
+IEDM,2023,S2023-24,21,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,RRAM and OTS selected crossbar arrays,IEDM_2023.txt
+IEDM,2023,S2023-24,22,,EDT,Emerging Device and Compute Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Emerging Devices for AI/Quantum,IEDM_2023.txt
+IEDM,2023,S2023-24,23,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Compute-in-Memory for Deep Learning,IEDM_2023.txt
+IEDM,2023,S2023-24,24,,MS,Modeling and Simulation,Devices & Process Technology,D2,Memory Devices & Technology,3D DRAM and Ferroelectric Memories,IEDM_2023.txt
+IEDM,2023,S2023-24,25,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors and Microsensors for,IEDM_2023.txt
+IEDM,2023,S2023-24,26,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D6,"Power, RF & Analog Devices",Recent Advances in,IEDM_2023.txt
+IEDM,2023,S2023-24,28,Focus,MS/PMA,(multi),Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",PMA/MS - Focus Session - Sustainability in Semiconductor Device,IEDM_2023.txt
+IEDM,2023,S2023-24,29,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,3D Stacked Transistors,IEDM_2023.txt
+IEDM,2023,S2023-24,30,,MS,Modeling and Simulation,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Modeling and characterization for DTCO,IEDM_2023.txt
+IEDM,2023,S2023-24,31,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,MRAM and 2T0C DRAM,IEDM_2023.txt
+IEDM,2023,S2023-24,32,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D2,Memory Devices & Technology,FEOL and Memory Reliability,IEDM_2023.txt
+IEDM,2023,S2023-24,33,,SMB,"Sensors, MEMS, and BioMEMS",Circuits & Systems,C1,Digital Processors & AI Accelerators,In-Sensor Computing Systems,IEDM_2023.txt
+IEDM,2023,S2023-24,34,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",High Frequency and,IEDM_2023.txt
+IEDM,2023,S2023-24,35,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Charge-Based Memories,IEDM_2023.txt
+IEDM,2023,S2023-24,36,,NC,Neuromorphic Computing,Circuits & Systems,C1,Digital Processors & AI Accelerators,Novel Computing Accelerators,IEDM_2023.txt
+IEDM,2023,S2023-24,37,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Alternative Devices,IEDM_2023.txt
+IEDM,2023,S2023-24,38,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D6,"Power, RF & Analog Devices",Wide Bandgap Devices,IEDM_2023.txt
+IEDM,2023,S2023-24,39,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",BEOL Compatible Technologies,IEDM_2023.txt
+IEDM,2023,S2023-24,40,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Image sensors,IEDM_2023.txt
+IEDM,2023,S2023-24,41,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Reliability of TFT and GaN Devices,IEDM_2023.txt
+IEDM,2024,S2024-25,10,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Novel Platforms for Computing,IEDM_2024.txt
+IEDM,2024,S2024-25,3,Focus,,,Devices & Process Technology,D2,Memory Devices & Technology,AI Memory: Technology and Architecture,IEDM_2024.txt
+IEDM,2024,S2024-25,8,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Advanced Optoelectronic Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,5,,NC,Neuromorphic Computing,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",3D Integration,IEDM_2024.txt
+IEDM,2024,S2024-25,6,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,DRAM with Oxide Semiconductor Channel,IEDM_2024.txt
+IEDM,2024,S2024-25,9,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",High Performance III-V and WBG RF FETs,IEDM_2024.txt
+IEDM,2024,S2024-25,2,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Gate-All-Around and 3D Stacked Transistors,IEDM_2024.txt
+IEDM,2024,S2024-25,4,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D2,Memory Devices & Technology,Memory and Ferroelectric Material Reliability,IEDM_2024.txt
+IEDM,2024,S2024-25,7,,MS,Modeling and Simulation,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Compact Modeling and DTCO,IEDM_2024.txt
+IEDM,2024,S2024-25,11,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Embedded Memories,IEDM_2024.txt
+IEDM,2024,S2024-25,14,Focus,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Emerging Neural Interface Technologies for Human Interfacing,IEDM_2024.txt
+IEDM,2024,S2024-25,15,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D2,Memory Devices & Technology,Memory and Computing Enabled by Material Innovations,IEDM_2024.txt
+IEDM,2024,S2024-25,17,,MS,Modeling and Simulation,Devices & Process Technology,D2,Memory Devices & Technology,Selector-Only Memory and Ferroelectric Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,12,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Alternative Channel Material Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,13,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Emerging Compute-In-Memory Hardware,IEDM_2024.txt
+IEDM,2024,S2024-25,16,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,High Frequency and Cryogenic RF,IEDM_2024.txt
+IEDM,2024,S2024-25,18,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Integrated Sensors and MEMS,IEDM_2024.txt
+IEDM,2024,S2024-25,19,,RSD,Reliability of Systems and Devices,Circuits & Systems,C6,Security & Hardware Trust,Emerging Devices: Security Applications and Reliablity,IEDM_2024.txt
+IEDM,2024,S2024-25,22,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Stochastic and Spin-Based Computing,IEDM_2024.txt
+IEDM,2024,S2024-25,23,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Displays and Photonic Platforms,IEDM_2024.txt
+IEDM,2024,S2024-25,27,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Novel Materials and Processes for Sensors and Detectors,IEDM_2024.txt
+IEDM,2024,S2024-25,28,Focus,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Semiconductor Technology biggest and best innovations: Past to Future,IEDM_2024.txt
+IEDM,2024,S2024-25,20,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Selector Based and Charge-trap Base Memories,IEDM_2024.txt
+IEDM,2024,S2024-25,26,,MS,Modeling and Simulation,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration","Multi-scale Modeling of Transport, Interconnects and Reliability",IEDM_2024.txt
+IEDM,2024,S2024-25,21,Focus,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Leading Semiconductor Products and Advanced Packaging,IEDM_2024.txt
+IEDM,2024,S2024-25,24,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Advancements in 2D Material Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,25,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D6,"Power, RF & Analog Devices",High Voltage Wide Bandgap Power Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,30,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric FET and NAND Flash Memories,IEDM_2024.txt
+IEDM,2024,S2024-25,35,,SMB,"Sensors, MEMS, and BioMEMS",Circuits & Systems,C7,Biomedical & Wearable Circuits,Biosensors and wearables,IEDM_2024.txt
+IEDM,2024,S2024-25,36,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",BEOL-compatible Oxide Channel Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,32,,MS,Modeling and Simulation,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,"Modeling of Advanced Channel Materials: 2D, IGZO, and GaN",IEDM_2024.txt
+IEDM,2024,S2024-25,31,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,3D-integrated Circuit Technology,IEDM_2024.txt
+IEDM,2024,S2024-25,33,Focus,,,Devices & Process Technology,D6,"Power, RF & Analog Devices",Emerging Power Electronic Devices and Integration for a Sustainable Society,IEDM_2024.txt
+IEDM,2024,S2024-25,34,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Transistor Reliability with Novel Processes, Materials and Evaluation Methodologies",IEDM_2024.txt
+IEDM,2024,S2024-25,37,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Materials and Process Advances for Ferroelectric Memory Applications,IEDM_2024.txt
+IEDM,2024,S2024-25,39,,ALT,Advanced Logic Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Interconnect and Contact Process Technology,IEDM_2024.txt
+IEDM,2024,S2024-25,42,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D2,Memory Devices & Technology,Magnetic Devices for Memory and Computing,IEDM_2024.txt
+IEDM,2024,S2024-25,38,,NC,Neuromorphic Computing,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectrics and Beyond,IEDM_2024.txt
+IEDM,2024,S2024-25,40,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D6,"Power, RF & Analog Devices",Device Physics in Wide-Bandgap Power Devices,IEDM_2024.txt
+IEDM,2024,S2024-25,41,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Advanced Image Sensors,IEDM_2024.txt
+IEDM,2025,S2025-26,2,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,"Gate-All-Around Technology, CFET and DTCO",IEDM_2025.txt
+IEDM,2025,S2025-26,3,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Embedded Memory and Selector Only Memory,IEDM_2025.txt
+IEDM,2025,S2025-26,4,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Memory Reliability,IEDM_2025.txt
+IEDM,2025,S2025-26,5,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,LLM and Search Engines with In-Memory Compute,IEDM_2025.txt
+IEDM,2025,S2025-26,6,Focus,ALT/MT/NC,(multi),Devices & Process Technology,D1,Logic & Advanced CMOS Devices,"Efficient AI Solutions: Advances in Architecture, Circuit,",IEDM_2025.txt
+IEDM,2025,S2025-26,7,,MS,Modeling and Simulation,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Compact Modeling and DTCO,IEDM_2025.txt
+IEDM,2025,S2025-26,8,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Emerging Photodetectors and SPADs,IEDM_2025.txt
+IEDM,2025,S2025-26,9,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Advanced Power and Cryogenic Devices,IEDM_2025.txt
+IEDM,2025,S2025-26,10,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Advances in 2D Material Devices and Integration,IEDM_2025.txt
+IEDM,2025,S2025-26,11,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Adaptive and On-chip Learning,IEDM_2025.txt
+IEDM,2025,S2025-26,12,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Memories,IEDM_2025.txt
+IEDM,2025,S2025-26,13,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS Resonators and Filters,IEDM_2025.txt
+IEDM,2025,S2025-26,14,Focus,EDT/SMB,(multi),Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,The Invisible Revolution in Thin-Film Transistors,IEDM_2025.txt
+IEDM,2025,S2025-26,15,,EDT,Emerging Device and Compute Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Emerging Spintronic and Cryogenic Devices,IEDM_2025.txt
+IEDM,2025,S2025-26,16,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",High Performance RF FET and HBT Technologies,IEDM_2025.txt
+IEDM,2025,S2025-26,17,,MS,Modeling and Simulation,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Thermal Analyses for Novel Transistors, Stacked Designs and Power Devices",IEDM_2025.txt
+IEDM,2025,S2025-26,18,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,NAND Technology,IEDM_2025.txt
+IEDM,2025,S2025-26,19,,ALT,Advanced Logic Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,"Transistors with 2D, Oxide Semiconductor, Novel Materials",IEDM_2025.txt
+IEDM,2025,S2025-26,20,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Probabilistic In-Memory Computing,IEDM_2025.txt
+IEDM,2025,S2025-26,21,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Displays and Integrated Photonics,IEDM_2025.txt
+IEDM,2025,S2025-26,22,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Advances in Oxide Semiconductor Devices: Physics, Integration, and Reliability .. 67",IEDM_2025.txt
+IEDM,2025,S2025-26,23,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Reliability Across Materials and Mechanisms,IEDM_2025.txt
+IEDM,2025,S2025-26,24,,MS,Modeling and Simulation,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Beyond CMOS and Advanced Transport Model,IEDM_2025.txt
+IEDM,2025,S2025-26,25,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices","MEMS and Sensors for Touch, Flow, Vision, and Gas Detection",IEDM_2025.txt
+IEDM,2025,S2025-26,26,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Advanced GaN Power Devices: Integration, Reliability and High Voltage",IEDM_2025.txt
+IEDM,2025,S2025-26,27,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,"FETs at 100: Yesterday’s Sparks, Tomorrow’s Arcs -- Human Wisdom",IEDM_2025.txt
+IEDM,2025,S2025-26,28,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Monolithic 3D and Novel Device Architectures for Post-Moore Computing,IEDM_2025.txt
+IEDM,2025,S2025-26,29,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,Oxide Semiconductors for Memory,IEDM_2025.txt
+IEDM,2025,S2025-26,30,,MS,Modeling and Simulation,Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memories and Ferroelectric Devices,IEDM_2025.txt
+IEDM,2025,S2025-26,31,Focus,ALT/NC/EDT,(multi),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,"Beyond Von Neumann, from Physics-inspired Solvers to",IEDM_2025.txt
+IEDM,2025,S2025-26,32,,RSD,Reliability of Systems and Devices,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Compute-in-Memory (CiM) Reliability,IEDM_2025.txt
+IEDM,2025,S2025-26,33,,ALT,Advanced Logic Technology,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",BEOL-Compatible Devices and Interconnect Technology,IEDM_2025.txt
+IEDM,2025,S2025-26,34,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Integrated Photo Sensors and Applications,IEDM_2025.txt
+IEDM,2025,S2025-26,35,,NC,Neuromorphic Computing,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Co-Design for Multimodal & Accurate In-Memory Computing,IEDM_2025.txt
+IEDM,2025,S2025-26,36,,PMA,"Power, Microwave/mm-Wave and Analog Devices/Systems",Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",GaN and III-V Integration for Next-Generation RF Devices,IEDM_2025.txt
+IEDM,2025,S2025-26,37,,EDT,Emerging Device and Compute Technology,Devices & Process Technology,D2,Memory Devices & Technology,Advances in Memory and Computing Using Hafnia based Ferroelectrics,IEDM_2025.txt
+IEDM,2025,S2025-26,38,,ALT,Advanced Logic Technology,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,System Optimization and Process Innovation,IEDM_2025.txt
+IEDM,2025,S2025-26,39,,MT,Memory Technology,Devices & Process Technology,D2,Memory Devices & Technology,MRAM and RRAM,IEDM_2025.txt
+IEDM,2025,S2025-26,40,,RSD,Reliability of Systems and Devices,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced Transistor Reliability,IEDM_2025.txt
+IEDM,2025,S2025-26,41,Focus,ALT/ODI,(multi),Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Silicon Photonics for Energy Efficient AI Computing,IEDM_2025.txt
+IEDM,2025,S2025-26,42,,ODI,"Optoelectronics, Displays, and Imaging Systems",Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Advanced Image Sensors,IEDM_2025.txt
+IEDM,2025,S2025-26,43,,SMB,"Sensors, MEMS, and BioMEMS",Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Bioelectronic Devices and Systems,IEDM_2025.txt
+ISSCC,2024,S2023-24,1,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,"Jonah Alben, Senior Vice President, GPU Engineering NVIDIA Generative AI has captured the imagination of users across multiple industries, and we have only begun to tap the potential of this amazing technology. GenAI",ISSCC_2024.txt
+ISSCC,2024,S2023-24,2,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors and Communication SoCs,ISSCC_2024.txt
+ISSCC,2024,S2023-24,3,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques,ISSCC_2024.txt
+ISSCC,2024,S2023-24,5,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless RF and mm-Wave Receiver Techniques,ISSCC_2024.txt
+ISSCC,2024,S2023-24,6,,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Imagers and Ultrasound,ISSCC_2024.txt
+ISSCC,2024,S2023-24,7,,,,Circuits & Systems,C4,Wireline & Optical I/O,Ultra-High-Speed Wireline,ISSCC_2024.txt
+ISSCC,2024,S2023-24,8,,,,Circuits & Systems,C5,Power Management Circuits,Hybrid DC-DC Converters,ISSCC_2024.txt
+ISSCC,2024,S2023-24,9,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Noise-Shaping and SAR ADCs,ISSCC_2024.txt
+ISSCC,2024,S2023-24,10,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Frequency Synthesis,ISSCC_2024.txt
+ISSCC,2024,S2023-24,11,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Industry Invited,ISSCC_2024.txt
+ISSCC,2024,S2023-24,12,,,,,??,(unmapped),Electromagnetic Interface ICs for Information and Power,ISSCC_2024.txt
+ISSCC,2024,S2023-24,13,,,,Devices & Process Technology,D2,Memory Devices & Technology,High-Density Memory and Interfaces,ISSCC_2024.txt
+ISSCC,2024,S2023-24,14,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,"Digital Techniques for System Adaptation, Power Management and Clocking",ISSCC_2024.txt
+ISSCC,2024,S2023-24,15,,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Embedded Memories & Ising Computing,ISSCC_2024.txt
+ISSCC,2024,S2023-24,16,,,,Circuits & Systems,C6,Security & Hardware Trust,Security: From Processors to Circuits,ISSCC_2024.txt
+ISSCC,2024,S2023-24,17,,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Emerging Sensing and Computing Technologies,ISSCC_2024.txt
+ISSCC,2024,S2023-24,18,,,,Circuits & Systems,C4,Wireline & Optical I/O,High-Performance Optical Transceivers,ISSCC_2024.txt
+ISSCC,2024,S2023-24,19,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF to mm-Wave Oscillators and Multipliers,ISSCC_2024.txt
+ISSCC,2024,S2023-24,20,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Machine Learning Accelerators,ISSCC_2024.txt
+ISSCC,2024,S2023-24,21,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Audio Amplifiers,ISSCC_2024.txt
+ISSCC,2024,S2023-24,22,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,High-Speed Analog-to-Digital Converters,ISSCC_2024.txt
+ISSCC,2024,S2023-24,23,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Energy-Efficient Connectivity Radios,ISSCC_2024.txt
+ISSCC,2024,S2023-24,24,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",D-Band/Sub-THz Transmitters and Sensors,ISSCC_2024.txt
+ISSCC,2024,S2023-24,25,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Invited: Innovations from Outside the (ISSCC’s) Box,ISSCC_2024.txt
+ISSCC,2024,S2023-24,26,,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and User Interaction Technologies,ISSCC_2024.txt
+ISSCC,2024,S2023-24,27,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Power,ISSCC_2024.txt
+ISSCC,2024,S2023-24,28,,,,Circuits & Systems,C5,Power Management Circuits,High-Density Power Management,ISSCC_2024.txt
+ISSCC,2024,S2023-24,29,,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,ICs for Quantum Technologies,ISSCC_2024.txt
+ISSCC,2024,S2023-24,30,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Domain-Specific Computing and Digital Accelerators,ISSCC_2024.txt
+ISSCC,2024,S2023-24,31,,,,Circuits & Systems,C5,Power Management Circuits,Power Converter Techniques,ISSCC_2024.txt
+ISSCC,2024,S2023-24,32,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Power Amplification and Signal Generation,ISSCC_2024.txt
+ISSCC,2024,S2023-24,33,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Intelligent Neural Interfaces and Sensing Systems,ISSCC_2024.txt
+ISSCC,2024,S2023-24,34,,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Compute-In-Memory,ISSCC_2024.txt
+ISSCC,2025,S2024-25,1,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,"Technology Innovation Jaihyuk Song, Corporate President & CTO, Device Solutions, Samsung Electronics, Hwaseong, South Korea The recent AI revolution, spearheaded by Large Language Models (LLMs), demands",ISSCC_2025.txt
+ISSCC,2025,S2024-25,2,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors,ISSCC_2025.txt
+ISSCC,2025,S2024-25,3,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Amplifiers and Analog Front-Ends,ISSCC_2025.txt
+ISSCC,2025,S2024-25,4,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques,ISSCC_2025.txt
+ISSCC,2025,S2024-25,5,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Front-End Circuits for High-Performance Transceivers,ISSCC_2025.txt
+ISSCC,2025,S2024-25,6,,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Imagers and Displays,ISSCC_2025.txt
+ISSCC,2025,S2024-25,7,,,,Circuits & Systems,C4,Wireline & Optical I/O,Ultra-High-Speed Wireline,ISSCC_2025.txt
+ISSCC,2025,S2024-25,8,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,"Digital Techniques for System Adaptation, Power Management and Clocking",ISSCC_2025.txt
+ISSCC,2025,S2024-25,9,,,,Circuits & Systems,C5,Power Management Circuits,Ubiquitous Power Delivery,ISSCC_2025.txt
+ISSCC,2025,S2024-25,10,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Transceiver Chipsets for Communication and Radar,ISSCC_2025.txt
+ISSCC,2025,S2024-25,11,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF and mm-Wave Wireless Receivers,ISSCC_2025.txt
+ISSCC,2025,S2024-25,12,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Innovations from Outside the (ISSCC’s) Box,ISSCC_2025.txt
+ISSCC,2025,S2024-25,13,,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Cool Computation Circuits,ISSCC_2025.txt
+ISSCC,2025,S2024-25,14,,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Compute-In-Memory,ISSCC_2025.txt
+ISSCC,2025,S2024-25,15,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Neural Interfaces and Edge Intelligence for Medical Devices,ISSCC_2025.txt
+ISSCC,2025,S2024-25,16,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Invited Industry,ISSCC_2025.txt
+ISSCC,2025,S2024-25,17,,,,Circuits & Systems,C6,Security & Hardware Trust,Hardware Security,ISSCC_2025.txt
+ISSCC,2025,S2024-25,18,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Noise-Shaping and SAR-Based ADCs,ISSCC_2025.txt
+ISSCC,2025,S2024-25,19,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Frequency Synthesizers and Series-Resonance VCOs,ISSCC_2025.txt
+ISSCC,2025,S2024-25,20,,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Sensors and Actuators for Health and Autonomy,ISSCC_2025.txt
+ISSCC,2025,S2024-25,21,,,,Circuits & Systems,C5,Power Management Circuits,Compute and USB Power,ISSCC_2025.txt
+ISSCC,2025,S2024-25,22,,,,Devices & Process Technology,D2,Memory Devices & Technology,Memory Interface,ISSCC_2025.txt
+ISSCC,2025,S2024-25,23,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AI-Accelerators,ISSCC_2025.txt
+ISSCC,2025,S2024-25,24,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,High-Frequency ADCs,ISSCC_2025.txt
+ISSCC,2025,S2024-25,25,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",High Concepts at High Frequencies,ISSCC_2025.txt
+ISSCC,2025,S2024-25,26,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Transmitters and Front-Ends,ISSCC_2025.txt
+ISSCC,2025,S2024-25,27,,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Sensor Interfaces,ISSCC_2025.txt
+ISSCC,2025,S2024-25,28,,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Capacitive Sensor Readout,ISSCC_2025.txt
+ISSCC,2025,S2024-25,29,,,,Devices & Process Technology,D2,Memory Devices & Technology,SRAM,ISSCC_2025.txt
+ISSCC,2025,S2024-25,30,,,,Devices & Process Technology,D2,Memory Devices & Technology,Nonvolatile Memory and DRAM,ISSCC_2025.txt
+ISSCC,2025,S2024-25,31,,,,Circuits & Systems,C5,Power Management Circuits,Energy Harvesting and IoT Power,ISSCC_2025.txt
+ISSCC,2025,S2024-25,32,,,,Circuits & Systems,C5,Power Management Circuits,Isolated Power and Gate Drivers,ISSCC_2025.txt
+ISSCC,2025,S2024-25,33,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Components for Beyond 100GHz,ISSCC_2025.txt
+ISSCC,2025,S2024-25,34,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Digital PLLs and Waveform-Shaping VCOs,ISSCC_2025.txt
+ISSCC,2025,S2024-25,35,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Implantable and Wearable Biomedical Devices,ISSCC_2025.txt
+ISSCC,2025,S2024-25,36,,,,Circuits & Systems,C4,Wireline & Optical I/O,Ultra-High-Density D2D and High-Performance Optical Transceivers,ISSCC_2025.txt
+ISSCC,2025,S2024-25,37,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Design-Technology Optimization and Digital Accelerators,ISSCC_2025.txt
+ISSCC,2026,S2025-26,1,,,,Devices & Process Technology,D6,"Power, RF & Analog Devices","Design for AI and AI for Design Anirudh Devgan, President and CEO, Cadence, San Jose, CA The AI supercycle is rapidly increasing demand for compute performance and",ISSCC_2026.txt
+ISSCC,2026,S2025-26,2,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors,ISSCC_2026.txt
+ISSCC,2026,S2025-26,3,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Wearable and Wireless Biomedical Systems,ISSCC_2026.txt
+ISSCC,2026,S2025-26,4,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques & Amplifiers,ISSCC_2026.txt
+ISSCC,2026,S2025-26,5,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Sub-THz and mm-Wave Phased Arrays and Beamformers,ISSCC_2026.txt
+ISSCC,2026,S2025-26,6,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Exploratory Receiver Architectures from GHz to THz,ISSCC_2026.txt
+ISSCC,2026,S2025-26,7,,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Image Sensors and Ranging,ISSCC_2026.txt
+ISSCC,2026,S2025-26,8,,,,Circuits & Systems,C4,Wireline & Optical I/O,Die-to-Die and High-Speed Electrical Transceivers,ISSCC_2026.txt
+ISSCC,2026,S2025-26,9,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Power,ISSCC_2026.txt
+ISSCC,2026,S2025-26,10,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Digital Processing and Circuit Techniques,ISSCC_2026.txt
+ISSCC,2026,S2025-26,11,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Pipeline and Ultra-High-Speed Data Converters,ISSCC_2026.txt
+ISSCC,2026,S2025-26,12,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Frequency Synthesizers and VCOs,ISSCC_2026.txt
+ISSCC,2026,S2025-26,13,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Circuits for AI and AI for Circuits,ISSCC_2026.txt
+ISSCC,2026,S2025-26,14,,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Unusual Interconnects and Other Uses for Light,ISSCC_2026.txt
+ISSCC,2026,S2025-26,15,,,,Devices & Process Technology,D2,Memory Devices & Technology,"DRAM, SRAM, and Non-Volatile Memories",ISSCC_2026.txt
+ISSCC,2026,S2025-26,16,,,,Circuits & Systems,C5,Power Management Circuits,"Energy Harvesting, Piezo and Chargers",ISSCC_2026.txt
+ISSCC,2026,S2025-26,17,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Highlighted Chip Releases for AI,ISSCC_2026.txt
+ISSCC,2026,S2025-26,18,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Technology and Circuits for Domain-Specific Accelerators,ISSCC_2026.txt
+ISSCC,2026,S2025-26,19,,,,Circuits & Systems,C5,Power Management Circuits,"High-Voltage, Isolated and Display Power",ISSCC_2026.txt
+ISSCC,2026,S2025-26,20,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF Transceiver Subsystems from cm-Wave to THz,ISSCC_2026.txt
+ISSCC,2026,S2025-26,21,,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Sensor Interfaces,ISSCC_2026.txt
+ISSCC,2026,S2025-26,22,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Circuits in Extreme Environments,ISSCC_2026.txt
+ISSCC,2026,S2025-26,23,,,,Circuits & Systems,C4,Wireline & Optical I/O,Next-Generation Optical Transceivers,ISSCC_2026.txt
+ISSCC,2026,S2025-26,24,,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Displays,ISSCC_2026.txt
+ISSCC,2026,S2025-26,25,,,,Circuits & Systems,C6,Security & Hardware Trust,Hardware Security,ISSCC_2026.txt
+ISSCC,2026,S2025-26,26,,,,Circuits & Systems,C5,Power Management Circuits,Compute Power and Supply Modulators,ISSCC_2026.txt
+ISSCC,2026,S2025-26,27,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers","Frequency Generators, Multipliers, and Modulators",ISSCC_2026.txt
+ISSCC,2026,S2025-26,28,,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Innovations from Outside the (ISSCC) Box,ISSCC_2026.txt
+ISSCC,2026,S2025-26,29,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Biochemical Sensors for Life Sciences and Agriculture,ISSCC_2026.txt
+ISSCC,2026,S2025-26,30,,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Compute-in-Memory,ISSCC_2026.txt
+ISSCC,2026,S2025-26,31,,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AI Accelerators,ISSCC_2026.txt
+ISSCC,2026,S2025-26,32,,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Low-Power Noise-Shaping ADCs,ISSCC_2026.txt
+ISSCC,2026,S2025-26,33,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Time-Varying Circuit Techniques from RF to mm-Wave,ISSCC_2026.txt
+ISSCC,2026,S2025-26,34,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Integrated Radar and UWB Transceivers from Microwave to Sub-THz,ISSCC_2026.txt
+ISSCC,2026,S2025-26,35,,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Low Power Wireless Transceivers for Localization and Communications,ISSCC_2026.txt
+ISSCC,2026,S2025-26,36,,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Neural and Biomedical Interfaces,ISSCC_2026.txt
+ISSCC,2026,S2025-26,37,,,,Devices & Process Technology,D2,Memory Devices & Technology,Memory Interface,ISSCC_2026.txt
+VLSI,2023,S2023-24,C1,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Neural Interfaces,VLSI_2023.txt
+VLSI,2023,S2023-24,C2,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,Non-Volatile Memory and Low Power SRAM,VLSI_2023.txt
+VLSI,2023,S2023-24,T1,Technology,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Highlight 1,VLSI_2023.txt
+VLSI,2023,S2023-24,C3,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors,VLSI_2023.txt
+VLSI,2023,S2023-24,C4,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Continuous-Time A/D Converteres,VLSI_2023.txt
+VLSI,2023,S2023-24,C5,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Transceivers,VLSI_2023.txt
+VLSI,2023,S2023-24,T2,Technology,,,Devices & Process Technology,D4,"Process, Materials & Metrology",Reliability and Characterization,VLSI_2023.txt
+VLSI,2023,S2023-24,T3,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,NAND Flash,VLSI_2023.txt
+VLSI,2023,S2023-24,T4,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,DTCO,VLSI_2023.txt
+VLSI,2023,S2023-24,C6,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,High-Speed Links,VLSI_2023.txt
+VLSI,2023,S2023-24,C7,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Digital Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,C8,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Biomedical Circuit and Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,JF1,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,New Computing,VLSI_2023.txt
+VLSI,2023,S2023-24,T5,Technology,,,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectric 1: FeFETs,VLSI_2023.txt
+VLSI,2023,S2023-24,T6,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Logic Technology 1: Advanced Platforms and Device Structures,VLSI_2023.txt
+VLSI,2023,S2023-24,C9,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,Advanced SRAM Design,VLSI_2023.txt
+VLSI,2023,S2023-24,C10,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memories for AI,VLSI_2023.txt
+VLSI,2023,S2023-24,T7,Technology,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Highlight 2,VLSI_2023.txt
+VLSI,2023,S2023-24,C11,Circuits,,,Circuits & Systems,C5,Power Management Circuits,DC-DC Converter,VLSI_2023.txt
+VLSI,2023,S2023-24,C12,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Digital Building Blocks,VLSI_2023.txt
+VLSI,2023,S2023-24,C13,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Millimeter-Wave Transceivers and Synthesizers,VLSI_2023.txt
+VLSI,2023,S2023-24,JF2,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AR/VR/MR Metaverse 1,VLSI_2023.txt
+VLSI,2023,S2023-24,TF1,Technology Focus,,,Devices & Process Technology,D2,Memory Devices & Technology,Future Memory Directions,VLSI_2023.txt
+VLSI,2023,S2023-24,T8,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Logic Technology 2: Advanced Processes,VLSI_2023.txt
+VLSI,2023,S2023-24,C14,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Nyquist-Rate ADCs,VLSI_2023.txt
+VLSI,2023,S2023-24,C15,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Images for Emerging Applications,VLSI_2023.txt
+VLSI,2023,S2023-24,C16,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Advanced NNs,VLSI_2023.txt
+VLSI,2023,S2023-24,T9,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"PCM, ReRAM and Threshold Switch",VLSI_2023.txt
+VLSI,2023,S2023-24,T10,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"Ferroelectric 2: FeRAM, FTJ and FMD",VLSI_2023.txt
+VLSI,2023,S2023-24,T11,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,New Channel Material 1: InOx and ITO,VLSI_2023.txt
+VLSI,2023,S2023-24,C17,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Power Management Circuit,VLSI_2023.txt
+VLSI,2023,S2023-24,C18,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Data Conversion Techniques,VLSI_2023.txt
+VLSI,2023,S2023-24,JF3,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AR/VR/MR Metaverse 2,VLSI_2023.txt
+VLSI,2023,S2023-24,T12,Technology,,,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectric 3: Advanced Structures and Processes,VLSI_2023.txt
+VLSI,2023,S2023-24,T13,Technology,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Computing and Cryo-CMOS,VLSI_2023.txt
+VLSI,2023,S2023-24,C19,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Circuit Techniques,VLSI_2023.txt
+VLSI,2023,S2023-24,C20,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Circuit Designs for Optical Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,C21,Circuits,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,PIM/CIM Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,T14,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,New Channel Material 2: InOx and 2D Material,VLSI_2023.txt
+VLSI,2023,S2023-24,C22,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Advanced Imagers,VLSI_2023.txt
+VLSI,2023,S2023-24,C23,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Short-Reach Links,VLSI_2023.txt
+VLSI,2023,S2023-24,JF5,Joint Focus,,,,??,(unmapped),Automotive and Aerospace,VLSI_2023.txt
+VLSI,2023,S2023-24,T15,Technology,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,In-Memory Computing,VLSI_2023.txt
+VLSI,2023,S2023-24,T16,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Logic Technology 3: Advanced Platforms and Processes,VLSI_2023.txt
+VLSI,2023,S2023-24,C24,Circuits,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Sensor Circuits and Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,C25,Circuits,,,Circuits & Systems,C6,Security & Hardware Trust,Power and Security Control Systems,VLSI_2023.txt
+VLSI,2023,S2023-24,C26,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Frequency Generation,VLSI_2023.txt
+VLSI,2023,S2023-24,T17,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,New Channel Material 3: IGZO,VLSI_2023.txt
+VLSI,2023,S2023-24,T18,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,DRAM/MRAM,VLSI_2023.txt
+VLSI,2023,S2023-24,TF2,Technology Focus,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",BEOL/BSPDN,VLSI_2023.txt
+VLSI,2024,S2024-25,T1,Technology,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Technology Highlights,VLSI_combined.txt
+VLSI,2024,S2024-25,C1,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Wireline Circuits,VLSI_combined.txt
+VLSI,2024,S2024-25,C2,Circuits,,,Devices & Process Technology,D6,"Power, RF & Analog Devices",Power at High Voltage and Current,VLSI_combined.txt
+VLSI,2024,S2024-25,C3,Circuits,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,AI/ML Accelerators and CiM,VLSI_combined.txt
+VLSI,2024,S2024-25,T2,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,Non-Volatile Memory Technology - Hafnia Based Ferroelectrics-1,VLSI_combined.txt
+VLSI,2024,S2024-25,JFS1,Joint Focus,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers","RF, mmWave, and THz Technologies",VLSI_combined.txt
+VLSI,2024,S2024-25,JFS2,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors & Compute,VLSI_combined.txt
+VLSI,2024,S2024-25,C4,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Biomedical Stimulation and Imaging,VLSI_combined.txt
+VLSI,2024,S2024-25,C5,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques,VLSI_combined.txt
+VLSI,2024,S2024-25,C6,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",SPAD Sensors,VLSI_combined.txt
+VLSI,2024,S2024-25,JFS3,Joint Focus,,,Circuits & Systems,C5,Power Management Circuits,Thermal Management and Power Delivery in 3D Integration,VLSI_combined.txt
+VLSI,2024,S2024-25,T3,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Novel Channel Materials for Advanced CMOS,VLSI_combined.txt
+VLSI,2024,S2024-25,T4,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,Oxide Channel FET for Logic and Memory Applications-1,VLSI_combined.txt
+VLSI,2024,S2024-25,C7,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors I,VLSI_combined.txt
+VLSI,2024,S2024-25,C8,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Oversampled Converters,VLSI_combined.txt
+VLSI,2024,S2024-25,C9,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Transceivers,VLSI_combined.txt
+VLSI,2024,S2024-25,T5,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced CMOS Devices and Technology-1,VLSI_combined.txt
+VLSI,2024,S2024-25,C10,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Transformer Processors,VLSI_combined.txt
+VLSI,2024,S2024-25,C11,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Clocking Techniques,VLSI_combined.txt
+VLSI,2024,S2024-25,C12,Circuits,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Sensors for Audio and Video,VLSI_combined.txt
+VLSI,2024,S2024-25,TFS1,Technology Focus,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Oxide Semiconductor Applications in BEOL,VLSI_combined.txt
+VLSI,2024,S2024-25,T6,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"Memory Technology: NAND, DRAM-1",VLSI_combined.txt
+VLSI,2024,S2024-25,TFS2,Technology Focus,,,Circuits & Systems,C5,Power Management Circuits,Backside of Silicon: From Power Delivery to Signaling,VLSI_combined.txt
+VLSI,2024,S2024-25,C13,Circuits,,,Circuits & Systems,C6,Security & Hardware Trust,Security,VLSI_combined.txt
+VLSI,2024,S2024-25,C14,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Very High-Speed Wireline,VLSI_combined.txt
+VLSI,2024,S2024-25,C15,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Interfaces to the Human Body and Sequencing,VLSI_combined.txt
+VLSI,2024,S2024-25,T7,Technology,,,Devices & Process Technology,D4,"Process, Materials & Metrology","Reliability, Characterization & Modeling of Oxide Semiconductor and Si Devices-1",VLSI_combined.txt
+VLSI,2024,S2024-25,T8,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"Emerging Non-Volatile Memories - RRAM, FeRAM, PCM, MRAM-1",VLSI_combined.txt
+VLSI,2024,S2024-25,T9,Technology,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Monolithic and Heterogeneous Integration,VLSI_combined.txt
+VLSI,2024,S2024-25,C16,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,Memory Circuits,VLSI_combined.txt
+VLSI,2024,S2024-25,C17,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Power Management Techniques,VLSI_combined.txt
+VLSI,2024,S2024-25,C18,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Data Converter Techniques,VLSI_combined.txt
+VLSI,2024,S2024-25,JFS4,Joint Focus,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Biomedical Technologies,VLSI_combined.txt
+VLSI,2024,S2024-25,JFS5,Joint Focus,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Image Sensors,VLSI_combined.txt
+VLSI,2024,S2024-25,T10,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"Emerging Non-Volatile Memories - RRAM, FeRAM, PCM, MRAM-2",VLSI_combined.txt
+VLSI,2024,S2024-25,C20,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processing for AI,VLSI_combined.txt
+VLSI,2024,S2024-25,C21,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Power Converters,VLSI_combined.txt
+VLSI,2024,S2024-25,T11,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced CMOS Devices and Technology-2,VLSI_combined.txt
+VLSI,2024,S2024-25,T12,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,Oxide Channel FET for Logic and Memory Applications-2,VLSI_combined.txt
+VLSI,2024,S2024-25,JFS6,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Memory-Centric Computing for LLM,VLSI_combined.txt
+VLSI,2024,S2024-25,C22,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Wireline Circuits II,VLSI_combined.txt
+VLSI,2024,S2024-25,C23,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Neural Recording Interfaces,VLSI_combined.txt
+VLSI,2024,S2024-25,C24,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,High-Speed Data Converters,VLSI_combined.txt
+VLSI,2024,S2024-25,T13,Technology,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Technologies for Power & RF Applications,VLSI_combined.txt
+VLSI,2024,S2024-25,T14,Technology,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Novel Devices for Quantum Computing Applications,VLSI_combined.txt
+VLSI,2024,S2024-25,C25,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Digital Circuits,VLSI_combined.txt
+VLSI,2024,S2024-25,C26,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques II,VLSI_combined.txt
+VLSI,2024,S2024-25,C27,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Sensors and Displays,VLSI_combined.txt
+VLSI,2024,S2024-25,T15,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,Non-Volatile Memory Technology - Hafnia Based Ferroelectrics-2,VLSI_combined.txt
+VLSI,2024,S2024-25,T16,Technology,,,Devices & Process Technology,D4,"Process, Materials & Metrology","Reliability, Characterization & Modeling of Oxide Semiconductor and Si Devices-2",VLSI_combined.txt
+VLSI,2024,S2024-25,T17,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,"Memory Technology: NAND, DRAM-2",VLSI_combined.txt
+VLSI,2024,S2024-25,C28,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Processors II,VLSI_combined.txt
+VLSI,2024,S2024-25,C29,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,PLLs,VLSI_combined.txt
+VLSI,2025,S2025-26,C1,Circuits,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,CIM and Quantum-inspired Computing,VLSI_2025.txt
+VLSI,2025,S2025-26,C2,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF/mm-wave Tx and Rx,VLSI_2025.txt
+VLSI,2025,S2025-26,C3,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Energy Harvesting,VLSI_2025.txt
+VLSI,2025,S2025-26,T1,Technology,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Technology Highlights 1,VLSI_2025.txt
+VLSI,2025,S2025-26,C4,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,SRAM and Mask ROM,VLSI_2025.txt
+VLSI,2025,S2025-26,C5,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Application-Specific ADCs,VLSI_2025.txt
+VLSI,2025,S2025-26,C6,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Imagers,VLSI_2025.txt
+VLSI,2025,S2025-26,T2,Technology,,,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Oxide Semiconductors 1: Novel Applications and Structures,VLSI_2025.txt
+VLSI,2025,S2025-26,JF1,Joint Focus,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",3D Integration and Photonics,VLSI_2025.txt
+VLSI,2025,S2025-26,T3,Technology,,,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Modeling and Reliability,VLSI_2025.txt
+VLSI,2025,S2025-26,C7,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,High-Density Short-Reach Links,VLSI_2025.txt
+VLSI,2025,S2025-26,C8,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,High-Speed ADCs,VLSI_2025.txt
+VLSI,2025,S2025-26,C9,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Advanced Bio-Sensing Techniques,VLSI_2025.txt
+VLSI,2025,S2025-26,T4,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,RRAM and MRAM,VLSI_2025.txt
+VLSI,2025,S2025-26,JF2,Joint Focus,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,DTCO and Design Enablement,VLSI_2025.txt
+VLSI,2025,S2025-26,T5,Technology,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Imagers and Sensors,VLSI_2025.txt
+VLSI,2025,S2025-26,C10,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AI Accelerators 1,VLSI_2025.txt
+VLSI,2025,S2025-26,C11,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",High-Performance Oscillators,VLSI_2025.txt
+VLSI,2025,S2025-26,C12,Circuits,,,Circuits & Systems,C4,Wireline & Optical I/O,Ultra High-speed Wireline,VLSI_2025.txt
+VLSI,2025,S2025-26,T6,Technology,,,Special / Non-technical,SP,Plenary / Invited / Panel / Showcase,Technology Highlights 2,VLSI_2025.txt
+VLSI,2025,S2025-26,C13,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AI Accelerators 2,VLSI_2025.txt
+VLSI,2025,S2025-26,C14,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Techniques,VLSI_2025.txt
+VLSI,2025,S2025-26,C15,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Biomedical Readout and Stimulation,VLSI_2025.txt
+VLSI,2025,S2025-26,C16,Circuits,,,Circuits & Systems,C6,Security & Hardware Trust,Hardware Security,VLSI_2025.txt
+VLSI,2025,S2025-26,TF1,Technology Focus,,,Devices & Process Technology,D2,Memory Devices & Technology,Memories for AI Applications,VLSI_2025.txt
+VLSI,2025,S2025-26,T8,Technology,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Integrated Optical Devices and Photodetector,VLSI_2025.txt
+VLSI,2025,S2025-26,C17,Circuits,,,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,CIM-based AI Accelerators,VLSI_2025.txt
+VLSI,2025,S2025-26,C18,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Power Management,VLSI_2025.txt
+VLSI,2025,S2025-26,C19,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Frequency Generation,VLSI_2025.txt
+VLSI,2025,S2025-26,C20,Circuits,,,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Acoustic Sensors,VLSI_2025.txt
+VLSI,2025,S2025-26,T9,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,NAND and NOR,VLSI_2025.txt
+VLSI,2025,S2025-26,T10,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced CMOS Platform,VLSI_2025.txt
+VLSI,2025,S2025-26,T11,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Materials for Memory Applications,VLSI_2025.txt
+VLSI,2025,S2025-26,C21,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Innovations in Brain State Classification,VLSI_2025.txt
+VLSI,2025,S2025-26,C22,Circuits,,,Devices & Process Technology,D2,Memory Devices & Technology,OTP and Nonvolatile Memory,VLSI_2025.txt
+VLSI,2025,S2025-26,C23,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Innovatie Computing Systems,VLSI_2025.txt
+VLSI,2025,S2025-26,T12,Technology,,,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Oxide Semiconductors 2: IWTO and InO,VLSI_2025.txt
+VLSI,2025,S2025-26,TF2,Technology Focus,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced Transistor Evolution in the Next Decade,VLSI_2025.txt
+VLSI,2025,S2025-26,T13,Technology,,,Devices & Process Technology,D6,"Power, RF & Analog Devices",Power Devices,VLSI_2025.txt
+VLSI,2025,S2025-26,C24,Circuits,,,Circuits & Systems,C7,Biomedical & Wearable Circuits,Circuit Techniques for Biomedical Applications,VLSI_2025.txt
+VLSI,2025,S2025-26,C25,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,Advanced PLLs,VLSI_2025.txt
+VLSI,2025,S2025-26,C26,Circuits,,,Circuits & Systems,C5,Power Management Circuits,Switching Regulators,VLSI_2025.txt
+VLSI,2025,S2025-26,T14,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,RRAM and Selector Only Memory,VLSI_2025.txt
+VLSI,2025,S2025-26,JF3,Joint Focus,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,AI and ML Hardware,VLSI_2025.txt
+VLSI,2025,S2025-26,C27,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Sensing and Ranging Technologies,VLSI_2025.txt
+VLSI,2025,S2025-26,C28,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Sub-THz TRXs,VLSI_2025.txt
+VLSI,2025,S2025-26,C29,Circuits,,,Circuits & Systems,C1,Digital Processors & AI Accelerators,Communication and Processors,VLSI_2025.txt
+VLSI,2025,S2025-26,C30,Circuits,,,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Cryo-CMOS Circuit,VLSI_2025.txt
+VLSI,2025,S2025-26,T16,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,FeRAM Array and Module,VLSI_2025.txt
+VLSI,2025,S2025-26,T17,Technology,,,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Oxide Semiconductors 3: Device Physics and Reliability,VLSI_2025.txt
+VLSI,2025,S2025-26,T18,Technology,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Interconnects,VLSI_2025.txt
+VLSI,2025,S2025-26,T19,Technology,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Gate Stack and BEOL Transistor Processes,VLSI_2025.txt
+VLSI,2025,S2025-26,C31,Circuits,,,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",MEMS and Display,VLSI_2025.txt
+VLSI,2025,S2025-26,C32,Circuits,,,Circuits & Systems,C2,Data Converters & Analog Circuits,High-Resolution ADCs,VLSI_2025.txt
+VLSI,2025,S2025-26,C33,Circuits,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless Power and Gate Drivers,VLSI_2025.txt
+VLSI,2025,S2025-26,T20,Technology,,,Devices & Process Technology,D2,Memory Devices & Technology,DRAM,VLSI_2025.txt
+VLSI,2025,S2025-26,T21,Technology,,,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Packaging and 3D Integration,VLSI_2025.txt
+VLSI,2025,S2025-26,T22,Technology,,,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,DTCO and Design Enablement,VLSI_2025.txt
+VLSI,2025,S2025-26,T23,Technology,,,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",Wireless and RF Devices,VLSI_2025.txt
+KCS,2024,S2023-24,TA1-L,,L,Analog Design,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Circuits,KCS_2024.txt
+KCS,2024,S2023-24,TB1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies I,KCS_2024.txt
+KCS,2024,S2023-24,TC1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,van der Waals Heterostructure Electronics,KCS_2024.txt
+KCS,2024,S2023-24,TD1-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",태양광 / 파워 디바이스,KCS_2024.txt
+KCS,2024,S2023-24,TE1-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Compound Semiconductor - InP Electronic Devices,KCS_2024.txt
+KCS,2024,S2023-24,TF1-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Characterization of 2D Materials,KCS_2024.txt
+KCS,2024,S2023-24,TG1-K,,K,Memory (Design & Process),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,RRAM and Neuromorphic Device I,KCS_2024.txt
+KCS,2024,S2023-24,TH1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Processing In Memory,KCS_2024.txt
+KCS,2024,S2023-24,TI1-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices,KCS_2024.txt
+KCS,2024,S2023-24,TJ1-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Emerging Interconnect,KCS_2024.txt
+KCS,2024,S2023-24,TK1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Reliability & Power Device,KCS_2024.txt
+KCS,2024,S2023-24,TL1-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, and Yield Enhancement I",KCS_2024.txt
+KCS,2024,S2023-24,TA2-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Plasma Etching I,KCS_2024.txt
+KCS,2024,S2023-24,TB2-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies II,KCS_2024.txt
+KCS,2024,S2023-24,TC2-J,,J,Nano-Science & Technology,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",1D/2D Optoelectronics,KCS_2024.txt
+KCS,2024,S2023-24,TD2-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",수소 생산 / 미래 에너지,KCS_2024.txt
+KCS,2024,S2023-24,TE2-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Compound Semiconductor - High-Power Devices,KCS_2024.txt
+KCS,2024,S2023-24,TF2-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Functional Oxides,KCS_2024.txt
+KCS,2024,S2023-24,TG2-K,,K,Memory (Design & Process),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,RRAM and Neuromorphic Device II,KCS_2024.txt
+KCS,2024,S2023-24,TH2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,DRAM,KCS_2024.txt
+KCS,2024,S2023-24,TI2-D,,D,Thin Film Process Technology,Devices & Process Technology,D2,Memory Devices & Technology,Memory Capacitors,KCS_2024.txt
+KCS,2024,S2023-24,TJ2-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Packaging I,KCS_2024.txt
+KCS,2024,S2023-24,TK2-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Carrier Transport & Ab-initio Simulation,KCS_2024.txt
+KCS,2024,S2023-24,TL2-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,AMO-based Quantum Technology,KCS_2024.txt
+KCS,2024,S2023-24,TA3-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Plasma Etching II,KCS_2024.txt
+KCS,2024,S2023-24,TB3-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies III,KCS_2024.txt
+KCS,2024,S2023-24,TC3-M,,M,RF and Wireless Design,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF and Wireless Design,KCS_2024.txt
+KCS,2024,S2023-24,TD3-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced Device Technology,KCS_2024.txt
+KCS,2024,S2023-24,TE3-N,,N,VLSI CAD,Circuits & Systems,C8,"Design Methodology, EDA & CAD",AI to VLSI CAD,KCS_2024.txt
+KCS,2024,S2023-24,TF3-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Recent Advances in MEMS,KCS_2024.txt
+KCS,2024,S2023-24,TG3-K,,K,Memory (Design & Process),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,RRAM and Neuromorphic Device III,KCS_2024.txt
+KCS,2024,S2023-24,TH3-S,,S,Chip Design Contest,Circuits & Systems,C8,"Design Methodology, EDA & CAD",Chip Design Contest,KCS_2024.txt
+KCS,2024,S2023-24,TI3-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectrics,KCS_2024.txt
+KCS,2024,S2023-24,TJ3-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Hybrid Bodning Technology,KCS_2024.txt
+KCS,2024,S2023-24,TK3-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",TCAD & Multiphysics Simulation,KCS_2024.txt
+KCS,2024,S2023-24,TL3-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Solid State Quantum Technology,KCS_2024.txt
+KCS,2024,S2023-24,FA1-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Lithography and photoresist I,KCS_2024.txt
+KCS,2024,S2023-24,FB1-O,,O,System LSI Design,Circuits & Systems,C1,Digital Processors & AI Accelerators,System LSI Design,KCS_2024.txt
+KCS,2024,S2023-24,FC1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,2D Electronics,KCS_2024.txt
+KCS,2024,S2023-24,FD1-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced Integration Technology,KCS_2024.txt
+KCS,2024,S2023-24,FE1-N,,N,VLSI CAD,Circuits & Systems,C8,"Design Methodology, EDA & CAD",VLSI CAD to Future Technologies,KCS_2024.txt
+KCS,2024,S2023-24,FF1-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Recent Advances in MEMS,KCS_2024.txt
+KCS,2024,S2023-24,FG1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Process and Modeling of Memory,KCS_2024.txt
+KCS,2024,S2023-24,FH1-U,,U,Bio-Medical,Circuits & Systems,C7,Biomedical & Wearable Circuits,Advanced Biomedical Integrated Circuits and Systems,KCS_2024.txt
+KCS,2024,S2023-24,FI1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition - I,KCS_2024.txt
+KCS,2024,S2023-24,FJ1-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Packaging II,KCS_2024.txt
+KCS,2024,S2023-24,FK1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D4,"Process, Materials & Metrology",Device Characterization & Modeling I,KCS_2024.txt
+KCS,2024,S2023-24,FL1-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, and Yield Enhancement II",KCS_2024.txt
+KCS,2024,S2023-24,FA2-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Lithography and photoresist II,KCS_2024.txt
+KCS,2024,S2023-24,FB2-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies IV,KCS_2024.txt
+KCS,2024,S2023-24,FC2-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Nano Devices,KCS_2024.txt
+KCS,2024,S2023-24,FD2-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Device Characterizations,KCS_2024.txt
+KCS,2024,S2023-24,FE2-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Compound Semiconductor - GaN HEMTs,KCS_2024.txt
+KCS,2024,S2023-24,FF2-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Materials synthesis by design,KCS_2024.txt
+KCS,2024,S2023-24,FG2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Charge Trap Flash Memory,KCS_2024.txt
+KCS,2024,S2023-24,FH2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Memory I,KCS_2024.txt
+KCS,2024,S2023-24,FI2-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition - II,KCS_2024.txt
+KCS,2024,S2023-24,FJ2-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors - I,KCS_2024.txt
+KCS,2024,S2023-24,FK2-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",TCAD & Compact Modeling,KCS_2024.txt
+KCS,2024,S2023-24,FL2-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, and Yield Enhancement III",KCS_2024.txt
+KCS,2024,S2023-24,FA3-R,,R,Semiconductor Software,Circuits & Systems,C8,"Design Methodology, EDA & CAD",Semiconductor Software,KCS_2024.txt
+KCS,2024,S2023-24,FB3-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies V,KCS_2024.txt
+KCS,2024,S2023-24,FC3-T,,T,AI,Circuits & Systems,C1,Digital Processors & AI Accelerators,Artificial Intelligence,KCS_2024.txt
+KCS,2024,S2023-24,FD3-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced Device Applications,KCS_2024.txt
+KCS,2024,S2023-24,FE3-E,,E,Compound Semiconductors,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Compound Semiconductor - Modeling & Process,KCS_2024.txt
+KCS,2024,S2023-24,FF3-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Recent Advances in Sensor Geometry and Materials,KCS_2024.txt
+KCS,2024,S2023-24,FG3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,NAND Flash Memory,KCS_2024.txt
+KCS,2024,S2023-24,FH3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Memory II,KCS_2024.txt
+KCS,2024,S2023-24,FI3-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Emerging Films Growth Technique,KCS_2024.txt
+KCS,2024,S2023-24,FJ3-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors - II,KCS_2024.txt
+KCS,2024,S2023-24,FK3-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D4,"Process, Materials & Metrology",Device Characterization & Modeling II,KCS_2024.txt
+KCS,2024,S2023-24,FL3-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Hybrid Platform for Quantum Technology,KCS_2024.txt
+KCS,2025,S2024-25,TA1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,DRAM Application,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TB1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Charge Trapped Memory Application,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TC1-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TD1-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Emerging Interconnect 1,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TE1-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectrics,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TF1-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Complex Oxide Thin Films and Heterostructures,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TG1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,2D Materials & Devices,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TH1-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D2,Memory Devices & Technology,Memory Device Technology,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TJ1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",TCAD Simulation,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TK1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D4,"Process, Materials & Metrology",Device Characterization & Modeling 1,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TL1-M,,M,RF and Wireless Design,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF Transceiver,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TM1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies I,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TN1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies II,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TC2-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices - II,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TD2-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Emerging Interconnect 2,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TE2-D,,D,Thin Film Process Technology,Devices & Process Technology,D2,Memory Devices & Technology,Memory Capacitors,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TF2-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Characterization of Oxide Heterostructures for Advanced Applications,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TG2-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Nanomaterial Electronics,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TH2-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",Devices for Sensors/Optics/Powers,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TI2-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS & Sensor Systems (IlI),KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TJ2-K,,K,Memory (Design & Process),Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Neuromorphic Application,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TK2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Embedded Memory and Computing-in-Memory Application,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TL2-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Lithography,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TM2-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",WBG Semiconductor-ll,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TN2-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D4,"Process, Materials & Metrology",Device Characterization & Modeling 2,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TA3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Charge Trapped Memory Technology - II,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TB3-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Emerging Films Growth - IIl,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TC3-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices - III,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TD3-U,,U,Bio-Medical,Circuits & Systems,C7,Biomedical & Wearable Circuits,Advanced Biomedical Devices,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TE3-S,,S,Chip Design Contest,Circuits & Systems,C8,"Design Methodology, EDA & CAD",Chip Design Contest,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TF3-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Technology 1,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TH3-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",Battery,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TI3-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS & Sensor Systems (III),KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TJ3-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,2D Devices & Materials,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TK3-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Nanomaterials & Applications,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TL3-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Etching and Lithography,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TM3-L,,L,Analog Design,Circuits & Systems,C2,Data Converters & Analog Circuits,Analog Circuits,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,TN3-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",WBG Semiconductor-Ill,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FA1-K,,K,Memory (Design & Process),Circuits & Systems,C6,Security & Hardware Trust,Security Applications and Reliability of Emerging Memory,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FB1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric Memory Technology,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FC1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition - I,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FD1-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, Analysis, and Yield Enhancement I",KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FE1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FF1-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Technology 2,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FG1-J,,J,Nano-Science & Technology,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Neuromorphic Electronics based on Nanomaterials,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FH1-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,3D GAA/CFET Technology,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FJ1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Compact Modeling,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FK1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Reliability & Packaging Simulation,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FL1-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Ill-V Semiconductor,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FM1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies Ill (phototectores),KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FN1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies V,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FC2-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition - II,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FD2-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package 1,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FE2-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors - II,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FF2-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Devices in Oxide Heterostructures,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FG2-J,,J,Nano-Science & Technology,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Nano Energy & Photonics,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FH2-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D4,"Process, Materials & Metrology",Process-Device Characterization,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FI2-N,,N,VLSI CAD,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Pioneering VLSl CAD: from Al to Quantum,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FJ2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Oxide Channel based Memory Technology,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FK2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Ferroelectric and Oxide Channel based Memory Technology,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FL2-M,,M,RF and Wireless Design,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF Circuit Design,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FM2-E,,E,Compound Semiconductors,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Optoelectronics,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FN2-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies IV,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FA3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,"Material, Process, Structures, Modeling for Advanced Memory Applications",KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FB3-G,,G,"Device & Process Modeling, Simulation and Reliability",Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Carrier Transport & Quantum Simulation,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FC3-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition - III,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FD3-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package 2,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FE3-D,,D,Thin Film Process Technology,Devices & Process Technology,D2,Memory Devices & Technology,TFT/Memory,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FF3-C,,C,Material Growth & Characterization,Cross-cutting / Emerging Computing,X1,Neuromorphic & In-Memory Computing,Neuromorphic and Functional Oxide Materials,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FG3-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Technology 3,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FH3-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, Analysis, and Yield Enhancement Il",KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FI3-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",Solar Cell,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FJ3-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Display and Imaging Technologies VI,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FK3-O,,O,System LSI Design,Circuits & Systems,C1,Digital Processors & AI Accelerators,System LSl Design,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FL3-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Etch,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FM3-T,,T,AI,Circuits & Systems,C1,Digital Processors & AI Accelerators,Artificial Intelligence,KCS_2025_oral_ocr.txt
+KCS,2025,S2024-25,FN3-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",WBG Semiconductor-],KCS_2025_oral_ocr.txt
+KCS,2026,S2025-26,WA1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",High-k/Metal Gate,KCS_2026_merged.txt
+KCS,2026,S2025-26,WB1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,NAND Flash,KCS_2026_merged.txt
+KCS,2026,S2025-26,WC1-D,,D,Thin Film Process Technology,Devices & Process Technology,D2,Memory Devices & Technology,Memory Capacitors I,KCS_2026_merged.txt
+KCS,2026,S2025-26,WD1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,2차원 나노소재의 성장 및 물성 제어,KCS_2026_merged.txt
+KCS,2026,S2025-26,WE1-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Ultra Wide Bandgap Power Devices,KCS_2026_merged.txt
+KCS,2026,S2025-26,WF1-K,,K,Memory (Design & Process),Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,IGZO,KCS_2026_merged.txt
+KCS,2026,S2025-26,WG1-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package I,KCS_2026_merged.txt
+KCS,2026,S2025-26,WH1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability I",KCS_2026_merged.txt
+KCS,2026,S2025-26,WI1-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,Advanced CMOS Applications,KCS_2026_merged.txt
+KCS,2026,S2025-26,WJ1-H,,H,Display and Imaging Technologies,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors for Displays I,KCS_2026_merged.txt
+KCS,2026,S2025-26,WC2-D,,D,Thin Film Process Technology,Devices & Process Technology,D2,Memory Devices & Technology,Memory Capacitors II,KCS_2026_merged.txt
+KCS,2026,S2025-26,WD2-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,2D 반도체 기반 트랜지스터 및 디바이스,KCS_2026_merged.txt
+KCS,2026,S2025-26,WE2-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Wide Bandgap Power Devices,KCS_2026_merged.txt
+KCS,2026,S2025-26,WF2-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Technology I,KCS_2026_merged.txt
+KCS,2026,S2025-26,WG2-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package II,KCS_2026_merged.txt
+KCS,2026,S2025-26,WH2-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability II",KCS_2026_merged.txt
+KCS,2026,S2025-26,WI2-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Special Topics: Device Reliability/Annealing Process,KCS_2026_merged.txt
+KCS,2026,S2025-26,WJ2-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Photodiodes and Image Sensors,KCS_2026_merged.txt
+KCS,2026,S2025-26,WA3-M,,M,RF and Wireless Design,Circuits & Systems,C3,"RF, mmWave & Wireless Transceivers",RF and Wireless Design,KCS_2026_merged.txt
+KCS,2026,S2025-26,WB3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memory,KCS_2026_merged.txt
+KCS,2026,S2025-26,WJ3-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS and Sensor System I,KCS_2026_merged.txt
+KCS,2026,S2025-26,WD3-R,,R,Semiconductor Software,Circuits & Systems,C8,"Design Methodology, EDA & CAD",R & O 분과 통합 세션 (부제: Semiconductor Software),KCS_2026_merged.txt
+KCS,2026,S2025-26,WE3-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",High Speed Devices and Circuits,KCS_2026_merged.txt
+KCS,2026,S2025-26,WF3-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology","Functional Membranes, Sensing, and Advanced Characterization",KCS_2026_merged.txt
+KCS,2026,S2025-26,WG3-S,,S,Chip Design Contest,Circuits & Systems,C8,"Design Methodology, EDA & CAD",Chip Design Contest,KCS_2026_merged.txt
+KCS,2026,S2025-26,WH3-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability III",KCS_2026_merged.txt
+KCS,2026,S2025-26,WI3-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D2,Memory Devices & Technology,Memory and Logic Devices for AI,KCS_2026_merged.txt
+KCS,2026,S2025-26,WJ3-T,,T,AI,Circuits & Systems,C1,Digital Processors & AI Accelerators,Artificial Intelligence II,KCS_2026_merged.txt
+KCS,2026,S2025-26,TA1-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices I,KCS_2026_merged.txt
+KCS,2026,S2025-26,TB1-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Patterning (Lithography),KCS_2026_merged.txt
+KCS,2026,S2025-26,TC1-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectrics I,KCS_2026_merged.txt
+KCS,2026,S2025-26,TD1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,NAND Flash,KCS_2026_merged.txt
+KCS,2026,S2025-26,TE1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,공정·계면·재료공학 기반 나노전자,KCS_2026_merged.txt
+KCS,2026,S2025-26,TF1-K,,K,Memory (Design & Process),Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectric,KCS_2026_merged.txt
+KCS,2026,S2025-26,TG1-C,,C,Material Growth & Characterization,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectricity and Complex Oxides,KCS_2026_merged.txt
+KCS,2026,S2025-26,TH1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability IV",KCS_2026_merged.txt
+KCS,2026,S2025-26,TI1-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectric Device Technology,KCS_2026_merged.txt
+KCS,2026,S2025-26,TJ1-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS and Sensor System II,KCS_2026_merged.txt
+KCS,2026,S2025-26,TC2-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Ferroelectrics II,KCS_2026_merged.txt
+KCS,2026,S2025-26,TD3-E,,E,Compound Semiconductors,Devices & Process Technology,D6,"Power, RF & Analog Devices",Optical and Other Device Technologies,KCS_2026_merged.txt
+KCS,2026,S2025-26,TE2-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,광전자·포토닉 디바이스 및 센서,KCS_2026_merged.txt
+KCS,2026,S2025-26,TF2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,DRAM,KCS_2026_merged.txt
+KCS,2026,S2025-26,TG2-C,,C,Material Growth & Characterization,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",BEOL & Semiconductor Integration Technologies,KCS_2026_merged.txt
+KCS,2026,S2025-26,TH2-T,,T,AI,Circuits & Systems,C1,Digital Processors & AI Accelerators,Artificial Intelligence I,KCS_2026_merged.txt
+KCS,2026,S2025-26,TI2-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, Analysis, and Yield Enhancement I",KCS_2026_merged.txt
+KCS,2026,S2025-26,TJ2-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Semiconductor Photonics for Displays and Imagers,KCS_2026_merged.txt
+KCS,2026,S2025-26,TA3-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices II,KCS_2026_merged.txt
+KCS,2026,S2025-26,TB2-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Patterning and Etch Materials,KCS_2026_merged.txt
+KCS,2026,S2025-26,TC3-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors I,KCS_2026_merged.txt
+KCS,2026,S2025-26,TD3-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Adv. Memory & Ferroelectric,KCS_2026_merged.txt
+KCS,2026,S2025-26,TE3-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",Electrochemical Energy Device,KCS_2026_merged.txt
+KCS,2026,S2025-26,TF3-C,,C,Material Growth & Characterization,Devices & Process Technology,D4,"Process, Materials & Metrology",2D vdW Semiconductors and Heterostructures,KCS_2026_merged.txt
+KCS,2026,S2025-26,TG3-N,,N,VLSI CAD,Circuits & Systems,C8,"Design Methodology, EDA & CAD",Advanced CAD for VLSI,KCS_2026_merged.txt
+KCS,2026,S2025-26,TH3-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability V",KCS_2026_merged.txt
+KCS,2026,S2025-26,TI3-F,,F,Silicon and Group-IV Devices & Integration,Devices & Process Technology,D1,Logic & Advanced CMOS Devices,GAA/CFET Device Technology and Design,KCS_2026_merged.txt
+KCS,2026,S2025-26,TJ3-H,,H,Display and Imaging Technologies,Devices & Process Technology,D7,"Optoelectronics, Display & Image Sensors",Emerging Displays and Image Sensors,KCS_2026_merged.txt
+KCS,2026,S2025-26,TA4-D,,D,Thin Film Process Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,Emerging Devices III,KCS_2026_merged.txt
+KCS,2026,S2025-26,TB4-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Etch,KCS_2026_merged.txt
+KCS,2026,S2025-26,TC4-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors II,KCS_2026_merged.txt
+KCS,2026,S2025-26,TD4-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memory,KCS_2026_merged.txt
+KCS,2026,S2025-26,TE4-P,,P,Device for Energy,Devices & Process Technology,D6,"Power, RF & Analog Devices",전력반도체 소자,KCS_2026_merged.txt
+KCS,2026,S2025-26,TF4-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package III,KCS_2026_merged.txt
+KCS,2026,S2025-26,TG4-N,,N,VLSI CAD,Circuits & Systems,C1,Digital Processors & AI Accelerators,Machine Learning for Electronic Design Automation,KCS_2026_merged.txt
+KCS,2026,S2025-26,TH4-E,,E,Compound Semiconductors,Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability",Reliability and Radiation Hardness,KCS_2026_merged.txt
+KCS,2026,S2025-26,TI4-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, Analysis, and Yield Enhancement II",KCS_2026_merged.txt
+KCS,2026,S2025-26,TJ4-H,,H,Display and Imaging Technologies,Devices & Process Technology,D4,"Process, Materials & Metrology",Thin Film Transistors for Displays II,KCS_2026_merged.txt
+KCS,2026,S2025-26,FA1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Advanced Thin Films and Growth Processes,KCS_2026_merged.txt
+KCS,2026,S2025-26,FB1-B,,B,Patterning (Lithography & Etch),Devices & Process Technology,D4,"Process, Materials & Metrology",Wet & Dry Etch Processes,KCS_2026_merged.txt
+KCS,2026,S2025-26,FC1-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition I,KCS_2026_merged.txt
+KCS,2026,S2025-26,FD1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memory,KCS_2026_merged.txt
+KCS,2026,S2025-26,FE1-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,3D 집적·회로 기술 및 나노소자,KCS_2026_merged.txt
+KCS,2026,S2025-26,FF1-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memory,KCS_2026_merged.txt
+KCS,2026,S2025-26,FG1-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Advanced Package IV,KCS_2026_merged.txt
+KCS,2026,S2025-26,FH1-G,,G,"Device & Process Modeling, Simulation and Reliability",Devices & Process Technology,D5,"Device Modeling, Simulation & Reliability","Device & Process Modeling, Simulation and Reliability VI",KCS_2026_merged.txt
+KCS,2026,S2025-26,FI1-Q,,Q,Metrology/Inspection/Yield,Devices & Process Technology,D4,"Process, Materials & Metrology","Metrology, Inspection, Analysis, and Yield Enhancement III",KCS_2026_merged.txt
+KCS,2026,S2025-26,FJ1-I,,I,MEMS & Sensor Systems,Devices & Process Technology,D8,"Sensors, MEMS & Bio-devices",MEMS and Sensor System III,KCS_2026_merged.txt
+KCS,2026,S2025-26,FC2-D,,D,Thin Film Process Technology,Devices & Process Technology,D4,"Process, Materials & Metrology",Atomic Layer Deposition II,KCS_2026_merged.txt
+KCS,2026,S2025-26,FD2-O,,O,System LSI Design,Circuits & Systems,C1,Digital Processors & AI Accelerators,R & O 분과 통합 세션 (부제: System LSI Design),KCS_2026_merged.txt
+KCS,2026,S2025-26,FE2-J,,J,Nano-Science & Technology,Devices & Process Technology,D9,Emerging & Beyond-CMOS Devices,뉴로모픽·메모리 소재 및 시냅스 소자 기술,KCS_2026_merged.txt
+KCS,2026,S2025-26,FF2-K,,K,Memory (Design & Process),Devices & Process Technology,D2,Memory Devices & Technology,Advanced Memory,KCS_2026_merged.txt
+KCS,2026,S2025-26,FG2-A,,A,Interconnect & Package,Devices & Process Technology,D3,"Interconnect, Packaging & 3D Integration",Emerging Interconnects,KCS_2026_merged.txt
+KCS,2026,S2025-26,FI2-V,,V,Quantum Technology,Cross-cutting / Emerging Computing,X2,Quantum & Cryogenic Technology,Quantum Technology II,KCS_2026_merged.txt
+KCS,2026,S2025-26,FJ2-U,,U,Bio-Medical,Circuits & Systems,C7,Biomedical & Wearable Circuits,Sensors and Circuits for Biomedical and Biochemical Applications,KCS_2026_merged.txt

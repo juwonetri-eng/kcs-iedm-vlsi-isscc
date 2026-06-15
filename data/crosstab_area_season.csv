@@ -1,0 +1,23 @@
+﻿area_code,area_name,tier1,S2023-24_cnt,S2024-25_cnt,S2025-26_cnt,S2023-24_share%,S2024-25_share%,S2025-26_share%,S2023-24_bb_cnt,S2024-25_bb_cnt,S2025-26_bb_cnt
+D1,Logic & Advanced CMOS Devices,Devices & Process Technology,14,9,11,7.2,4.3,5.0,11,8,9
+D2,Memory Devices & Technology,Devices & Process Technology,27,33,31,13.9,15.9,14.0,19,22,19
+D3,"Interconnect, Packaging & 3D Integration",Devices & Process Technology,7,11,13,3.6,5.3,5.9,3,7,7
+D4,"Process, Materials & Metrology",Devices & Process Technology,20,19,17,10.3,9.2,7.7,2,2,0
+D5,"Device Modeling, Simulation & Reliability",Devices & Process Technology,8,4,15,4.1,1.9,6.8,3,1,7
+D6,"Power, RF & Analog Devices",Devices & Process Technology,9,10,8,4.6,4.8,3.6,4,4,2
+D7,"Optoelectronics, Display & Image Sensors",Devices & Process Technology,13,15,14,6.7,7.2,6.3,7,7,11
+D8,"Sensors, MEMS & Bio-devices",Devices & Process Technology,6,9,9,3.1,4.3,4.1,3,6,6
+D9,Emerging & Beyond-CMOS Devices,Devices & Process Technology,9,11,20,4.6,5.3,9.0,4,3,5
+C1,Digital Processors & AI Accelerators,Circuits & Systems,15,13,15,7.7,6.3,6.8,13,11,11
+C2,Data Converters & Analog Circuits,Circuits & Systems,10,14,8,5.2,6.8,3.6,9,13,8
+C3,"RF, mmWave & Wireless Transceivers",Circuits & Systems,12,13,18,6.2,6.3,8.1,11,11,17
+C4,Wireline & Optical I/O,Circuits & Systems,5,5,4,2.6,2.4,1.8,5,5,4
+C5,Power Management Circuits,Circuits & Systems,5,8,6,2.6,3.9,2.7,5,8,6
+C6,Security & Hardware Trust,Circuits & Systems,2,4,2,1.0,1.9,0.9,2,3,2
+C7,Biomedical & Wearable Circuits,Circuits & Systems,4,9,8,2.1,4.3,3.6,3,8,7
+C8,"Design Methodology, EDA & CAD",Circuits & Systems,4,1,3,2.1,0.5,1.4,0,0,0
+X1,Neuromorphic & In-Memory Computing,Cross-cutting / Emerging Computing,10,7,8,5.2,3.4,3.6,7,4,8
+X2,Quantum & Cryogenic Technology,Cross-cutting / Emerging Computing,8,8,6,4.1,3.9,2.7,5,3,4
+SP,Plenary / Invited / Panel / Showcase,Special / Non-technical,4,4,5,2.1,1.9,2.3,4,4,5
+??,(unmapped),,2,0,0,1.0,0.0,0.0,2,0,0
+,TOTAL sessions,,194,207,221,,,,122,130,138

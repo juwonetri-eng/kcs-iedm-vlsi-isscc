@@ -93,6 +93,7 @@
     <div class="toggle" id="toggle-kw">
       <button data-g="gap" class="on">국내·해외 비중차</button>
       <button data-g="top">Top 키워드 (적중 수)</button>
+      <button data-g="trend">키워드 시즌 추이</button>
     </div>
     <div id="chart-kw" class="plot"></div>
   </section>
@@ -128,6 +129,12 @@
     <p><b>한계</b>: ① 규칙 기반 자동 분류(미세 오분류 가능) ② KCS 2025는 이미지 PDF를 OCR 복원
        ③ 키워드/기관은 제목·소속 텍스트 매칭이라 미검출(과소계상) 가능 ④ 국내=KCS(국내 학회),
        해외=국제 학회라 발표 채널 차이가 섞임 → "기관 분석"으로 보정. 정량 추세 해석용.</p>
+    <p><b>원천 데이터(CSV)</b>:
+       <a href="data/papers_mapped.csv">논문 매핑(3,903)</a> ·
+       <a href="data/sessions_mapped.csv">세션 매핑(622)</a> ·
+       <a href="data/institutions.csv">기관 검출</a> ·
+       <a href="data/crosstab_area_season.csv">시즌 교차표</a> ·
+       <a href="data/taxonomy.md">분류체계</a></p>
   </footer>
 </main>
 
