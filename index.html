@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>반도체 4대 학회 기술동향 — 국내·해외 비교 대시보드</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">ETRI 반도체연구정책센터 · 기술동향 분석</p>
+    <h1>반도체 4대 학회 기술동향 대시보드</h1>
+    <p class="lede">국내 <b>KCS</b> 와 해외 3대 학회 <b>IEDM · ISSCC · VLSI</b> 의 세션을
+       공통 기술분류(19개 영역)에 매핑해 국내·해외 연구동향을 비교합니다.</p>
+    <div class="kpis" id="kpis"></div>
+    <p class="note">분석 단위: 세션 · 발행시기 코호트(시즌) = VLSI(Y)+IEDM(Y)+ISSCC(Y+1)+KCS(Y+1)</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <div class="sec-head"><span class="num">01</span>
+      <div><h2>국내 · 해외 비교</h2>
+      <p>기술영역별 비중(%) 차이. 막대가 <b class="kr">파란쪽</b>이면 국내(KCS)가, <b class="ov">주황쪽</b>이면 해외가 더 집중.</p></div>
+    </div>
+    <div id="chart-gap" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">02</span>
+      <div><h2>기술영역 Activity 산점도</h2>
+      <p>X = 누적 세션수(연구 풀 크기), Y = 활동지수(최근 비중, 1.0=균등 · &gt;1 성장 · &lt;1 둔화).
+         4사분면: <b>Emerging</b>(소규모·성장) / <b>Core Rising</b>(대규모·성장) /
+         <b>Niche</b>(소규모·둔화) / <b>Mature</b>(대규모·둔화).</p></div>
+    </div>
+    <div class="toggle" id="toggle-scatter">
+      <button data-g="all" class="on">전체</button>
+      <button data-g="domestic">국내 KCS</button>
+      <button data-g="overseas">해외 3대</button>
+    </div>
+    <div id="chart-scatter" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">03</span>
+      <div><h2>시즌별 트렌드</h2>
+      <p>시즌별 기술영역 비중(%) 추이. 범례에서 영역을 켜고 끌 수 있습니다.</p></div>
+    </div>
+    <div class="toggle" id="toggle-trend">
+      <button data-g="all" class="on">전체</button>
+      <button data-g="domestic">국내 KCS</button>
+      <button data-g="overseas">해외 3대</button>
+    </div>
+    <div id="chart-trend" class="plot"></div>
+  </section>
+
+  <footer>
+    <p>데이터: IEDM·ISSCC·VLSI·KCS 프로그램 PDF에서 세션 추출 후 공통 분류 매핑(규칙 기반).
+       KCS 2025는 OCR 복원. 생성: <code>scripts/build_dashboard_data.py</code> → <code>js/data.js</code>.</p>
+  </footer>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
