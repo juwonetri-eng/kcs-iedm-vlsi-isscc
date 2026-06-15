@@ -27,6 +27,66 @@
     ).join("");
   })();
 
+  /* ---------- ★ auto insights ---------- */
+  (function insights() {
+    const el = document.getElementById("insights");
+    if (!el) return;
+    const aname = c => { const a = A.find(x => x.code === c); return a ? a.name : c; };
+    // domestic emphasis gap (국내 강점/편중)
+    const gd = DASH.grandDomestic, go = DASH.grandOverseas;
+    const gaps = A.map(a => ({ c: a.code, g: 100 * DASH.totalDomestic[a.code] / gd - 100 * DASH.totalOverseas[a.code] / go }))
+      .sort((x, y) => y.g - x.g);
+    const domTop = gaps.slice(0, 3), domBot = gaps.slice(-3).reverse();
+    // intl participation by area (한국 국제 경쟁력)
+    let instBlock = "";
+    if (typeof INST !== "undefined") {
+      const ir = Object.keys(INST.korByArea).map(a => ({ c: a, ...INST.korByArea[a], r: 100 * INST.korByArea[a].kor / INST.korByArea[a].tot }))
+        .filter(x => x.tot >= 12);
+      const hi = ir.slice().sort((a, b) => b.r - a.r).slice(0, 3);
+      const lo = ir.slice().sort((a, b) => a.r - b.r).slice(0, 3);
+      const totK = DASH.overseas.reduce((s, c) => s + (INST.korByConf[c] ? INST.korByConf[c].kor : 0), 0);
+      const totP = DASH.overseas.reduce((s, c) => s + (INST.korByConf[c] ? INST.korByConf[c].tot : 0), 0);
+      instBlock = `
+      <div class="ins"><h3>🌏 해외 학회 속 한국 (실제 경쟁력)</h3>
+        <ul>
+        <li>해외 3대 학회 논문의 <b>${(100 * totK / totP).toFixed(0)}%</b>에 한국 기관 참여 (삼성·KAIST·SK하이닉스 주도)</li>
+        <li>국제적으로 <span class="up">강한</span> 영역: ${hi.map(x => `${aname(x.c)}(${x.r.toFixed(0)}%)`).join(", ")}</li>
+        <li>국제적으로 <span class="down">약한</span> 영역: ${lo.map(x => `${aname(x.c)}(${x.r.toFixed(0)}%)`).join(", ")}</li>
+        </ul></div>`;
+    }
+    // keyword strength
+    let kwBlock = "";
+    if (typeof KW !== "undefined") {
+      const kr = KW.labels.map(l => {
+        const h = KW.hitsGroup[l] || {}; const d = (h.domestic || 0) / KW.groupTotalDom, o = (h.overseas || 0) / KW.groupTotalOvs;
+        return { l, g: d - o };
+      });
+      const ku = kr.slice().sort((a, b) => b.g - a.g).slice(0, 5).map(x => x.l);
+      const kd = kr.slice().sort((a, b) => a.g - b.g).slice(0, 5).map(x => x.l);
+      kwBlock = `
+      <div class="ins"><h3>🔑 키워드로 본 무게중심</h3>
+        <ul>
+        <li>국내 집중 키워드: <b>${ku.join(", ")}</b></li>
+        <li>해외 집중 키워드: <b>${kd.join(", ")}</b></li>
+        </ul></div>`;
+    }
+    el.innerHTML = `
+      <div class="ins"><h3>🇰🇷 국내(KCS) 무게중심</h3>
+        <ul>
+        <li>국내 편중(해외比 ↑): ${domTop.map(x => `${aname(x.c)}(+${x.g.toFixed(1)}pp)`).join(", ")}</li>
+        <li>국내 희소(해외比 ↓): ${domBot.map(x => `${aname(x.c)}(${x.g.toFixed(1)}pp)`).join(", ")}</li>
+        <li>→ 국내 학회는 <b>소재·공정·소자물리</b> 중심</li>
+        </ul></div>
+      ${instBlock}
+      ${kwBlock}
+      <div class="ins"><h3>📌 종합 해석</h3>
+        <ul>
+        <li>한국은 <b>신소자·소재·메모리/디스플레이</b>에서 국내·국제 모두 강함</li>
+        <li><b>RF·아날로그·신뢰성/모델링·양자</b>는 국제 참여율도 낮아 <span class="down">실질 약점</span> 후보</li>
+        <li>전력관리 등 일부는 국내 학회엔 적지만 국제선 강함 → 발표 채널 차이</li>
+        </ul></div>`;
+  })();
+
   const layoutBase = {
     margin: { l: 60, r: 24, t: 16, b: 48 },
     font: { family: "Segoe UI, Malgun Gothic, sans-serif", size: 12, color: "#0f172a" },
@@ -285,6 +345,49 @@
     }), CONFIG);
   }
 
+  /* ---------- 07. Korea capability quadrant ---------- */
+  function drawQuadrant() {
+    if (typeof INST === "undefined") return;
+    const gd = DASH.grandDomestic;
+    const pts = A.map(a => {
+      const ka = INST.korByArea[a.code];
+      if (!ka || ka.tot < 10) return null;
+      return { a, intl: 100 * ka.kor / ka.tot, dom: 100 * DASH.totalDomestic[a.code] / gd, ck: a.tier };
+    }).filter(Boolean);
+    const xmed = 21;                                  // overall intl avg
+    const ys = pts.map(p => p.dom).sort((a, b) => a - b);
+    const ymed = ys[Math.floor(ys.length / 2)] || 5;
+    const xmax = Math.max(...pts.map(p => p.intl)) * 1.12;
+    const ymax = Math.max(...pts.map(p => p.dom)) * 1.15;
+    const traces = Object.keys(TIERCOL).map(t => {
+      const sub = pts.filter(p => p.a.tier === t);
+      if (!sub.length) return null;
+      return {
+        type: "scatter", mode: "markers+text", name: tierShort(t),
+        x: sub.map(p => +p.intl.toFixed(1)), y: sub.map(p => +p.dom.toFixed(1)),
+        text: sub.map(p => p.a.code), textposition: "top center", textfont: { size: 10 },
+        marker: { size: 14, color: TIERCOL[t], opacity: .8, line: { color: "#fff", width: 1 } },
+        hovertext: sub.map(p => `<b>${codeName(p.a)}</b><br>국제 참여율 ${p.intl.toFixed(0)}%<br>국내 비중 ${p.dom.toFixed(1)}%`), hoverinfo: "text",
+      };
+    }).filter(Boolean);
+    const lab = (x, y, t, c) => ({ x, y, text: t, showarrow: false, font: { size: 12, color: c }, opacity: .6 });
+    Plotly.newPlot("chart-quad", traces, Object.assign({}, layoutBase, {
+      xaxis: { title: "해외 학회 내 한국 참여율 (%)", range: [0, xmax] },
+      yaxis: { title: "국내 학회(KCS) 비중 (%)", range: [0, ymax] },
+      legend: { orientation: "h", y: 1.08 },
+      shapes: [
+        { type: "line", x0: xmed, x1: xmed, y0: 0, y1: ymax, line: { color: "#cbd5e1", dash: "dot" } },
+        { type: "line", x0: 0, x1: xmax, y0: ymed, y1: ymed, line: { color: "#cbd5e1", dash: "dot" } },
+      ],
+      annotations: [
+        lab(xmax * 0.86, ymax * 0.95, "정착 강점", "#16a34a"),
+        lab(xmax * 0.86, ymax * 0.04, "산업 주도", "#2563eb"),
+        lab(xmax * 0.14, ymax * 0.95, "국내 편중", "#dc2626"),
+        lab(xmax * 0.14, ymax * 0.04, "저활동", "#94a3b8"),
+      ],
+    }), CONFIG);
+  }
+
   wire("toggle-scatter", g => { curGroup = g; drawScatter(); });
   wire("toggle-scatter-dim", g => { curDim = g; drawScatter(); });
   wire("toggle-trend", drawTrend);
@@ -292,6 +395,7 @@
   const hasKW = typeof KW !== "undefined";
   if (hasKW) wire("toggle-kw", drawKw);
   if (typeof INST !== "undefined") wire("toggle-inst", drawInst);
+  if (typeof INST !== "undefined") drawQuadrant();
   drawScatter();
   drawTrend("all");
   drawConfYear("IEDM");

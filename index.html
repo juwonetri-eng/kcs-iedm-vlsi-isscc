@@ -20,6 +20,15 @@
 </header>
 
 <main class="wrap">
+  <section class="card insight-card">
+    <div class="sec-head"><span class="num">★</span>
+      <div><h2>핵심 발견 (데이터 자동 요약)</h2>
+      <p>아래 수치는 추출 데이터에서 자동 계산됩니다. 국내 학회(KCS) 무게중심과
+         해외 학회 내 한국 기관 참여율을 함께 봐야 "진짜 강·약점"이 보입니다.</p></div>
+    </div>
+    <div id="insights" class="insights"></div>
+  </section>
+
   <section class="card">
     <div class="sec-head"><span class="num">01</span>
       <div><h2>국내 · 해외 비교</h2>
@@ -100,6 +109,16 @@
       <button data-g="trend">연도별 참여율 추이</button>
     </div>
     <div id="chart-inst" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">07</span>
+      <div><h2>한국 역량 포지셔닝</h2>
+      <p>X = 해외 학회 내 한국 참여율(국제 경쟁력), Y = 국내 학회(KCS) 비중(국내 무게중심).
+         <b>우상=정착 강점</b> · <b>우하=산업 주도(국제 강·국내 학회 약)</b> ·
+         <b>좌상=국내 편중(국제 경쟁력 과제)</b> · <b>좌하=저활동/공백</b>.</p></div>
+    </div>
+    <div id="chart-quad" class="plot"></div>
   </section>
 
   <footer>

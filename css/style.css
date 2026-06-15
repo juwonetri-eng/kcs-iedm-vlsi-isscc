@@ -29,6 +29,17 @@ main{padding:28px 0 60px}
 .sec-head h2{margin:0;font-size:21px}
 .sec-head p{margin:4px 0 0;color:var(--muted);font-size:13.5px}
 .kr{color:var(--kr)} .ov{color:var(--ov)}
+.insight-card{border-left:5px solid var(--accent)}
+.sec-head .num{min-width:24px;text-align:center}
+.insights{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:6px 2px 14px}
+.ins{background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.ins h3{margin:0 0 8px;font-size:15px}
+.ins ul{margin:0;padding-left:18px}
+.ins li{font-size:13.5px;margin:3px 0;color:#334155}
+.ins b{color:#0f172a}
+.ins .up{color:#16a34a;font-weight:700}
+.ins .down{color:#dc2626;font-weight:700}
+@media(max-width:680px){.insights{grid-template-columns:1fr}}
 
 .toggle{display:flex;gap:8px;margin:6px 0 4px}
 .toggle button{border:1px solid var(--line);background:#f8fafc;color:#475569;
@@ -42,6 +53,7 @@ main{padding:28px 0 60px}
 #chart-confyear{height:520px}
 #chart-kw{height:640px}
 #chart-inst{height:600px}
+#chart-quad{height:560px}
 
 footer{color:var(--muted);font-size:12px;padding:8px 2px 0}
 footer code{background:#e2e8f0;padding:1px 5px;border-radius:4px}
