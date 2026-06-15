@@ -30,10 +30,14 @@
 
   <section class="card">
     <div class="sec-head"><span class="num">02</span>
-      <div><h2>기술영역 Activity 산점도</h2>
-      <p>X = 누적 세션수(연구 풀 크기), Y = 활동지수(최근 비중, 1.0=균등 · &gt;1 성장 · &lt;1 둔화).
+      <div><h2>Activity 산점도 (영역 / 키워드)</h2>
+      <p>X = 누적 발표수(연구 풀 크기), Y = 활동지수(최근 비중, 1.0=균등 · &gt;1 성장 · &lt;1 둔화).
          4사분면: <b>Emerging</b>(소규모·성장) / <b>Core Rising</b>(대규모·성장) /
          <b>Niche</b>(소규모·둔화) / <b>Mature</b>(대규모·둔화).</p></div>
+    </div>
+    <div class="toggle" id="toggle-scatter-dim">
+      <button data-g="area" class="on">기술영역별</button>
+      <button data-g="keyword">기술 키워드별</button>
     </div>
     <div class="toggle" id="toggle-scatter">
       <button data-g="all" class="on">전체</button>

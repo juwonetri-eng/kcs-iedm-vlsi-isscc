@@ -72,38 +72,63 @@
     return g === "domestic" ? DASH.bySeasonDomestic
       : g === "overseas" ? DASH.bySeasonOverseas : DASH.bySeasonAll;
   }
-  function drawScatter(g) {
-    const grid = gridFor(g);
-    const pts = A.map(a => {
-      const seq = S.map(s => grid[a.code][s]);
-      const total = seq.reduce((x, y) => x + y, 0);
-      const last2 = seq[N - 1] + (seq[N - 2] || 0);
-      const activity = total ? (last2 / total) * (N / 2) : 0;
-      return { a, total, activity };
+  const KWGROUPS = ["Logic/Device", "Memory", "Packaging", "Process", "Power/RF",
+                    "Sensor/Bio", "Compute/AI", "Circuit", "Quantum", "Security", "Reliability"];
+  const KWCOL = { "Logic/Device": "#2563eb", "Memory": "#7c3aed", "Packaging": "#0891b2",
+    "Process": "#0d9488", "Power/RF": "#ca8a04", "Sensor/Bio": "#16a34a", "Compute/AI": "#dc2626",
+    "Circuit": "#ea580c", "Quantum": "#9333ea", "Security": "#64748b", "Reliability": "#475569" };
+  let curGroup = "all", curDim = "area";
+
+  function activity(seq) {
+    const total = seq.reduce((x, y) => x + y, 0), last2 = seq[N - 1] + (seq[N - 2] || 0);
+    return { total, act: total ? (last2 / total) * (N / 2) : 0 };
+  }
+  function areaPoints(group) {
+    const grid = gridFor(group);
+    return A.map(a => {
+      const m = activity(S.map(s => grid[a.code][s]));
+      return { label: a.code, full: codeName(a), ck: a.tier, cn: tierShort(a.tier), total: m.total, act: m.act };
     }).filter(p => p.total > 0);
-
-    const scales = pts.map(p => p.total).sort((x, y) => x - y);
+  }
+  function kwPoints(group) {
+    if (typeof KW === "undefined") return [];
+    return KW.labels.map(l => {
+      const dom = KW.hitsSeasonDom[l] || {}, ovs = KW.hitsSeasonOvs[l] || {};
+      const m = activity(S.map(s => group === "domestic" ? (dom[s] || 0)
+        : group === "overseas" ? (ovs[s] || 0) : ((dom[s] || 0) + (ovs[s] || 0))));
+      const g = KW.groups[l] || "Reliability";
+      return { label: l, full: l, ck: g, cn: g, total: m.total, act: m.act };
+    }).filter(p => p.total >= 6);
+  }
+  function drawScatter() {
+    const dim = curDim, group = curGroup;
+    const pts = dim === "keyword" ? kwPoints(group) : areaPoints(group);
+    if (!pts.length) { document.getElementById("chart-scatter").innerHTML = "<p style='padding:20px;color:#64748b'>데이터 없음</p>"; return; }
+    const scales = pts.map(p => p.total).sort((a, b) => a - b);
     const xmed = scales[Math.floor(scales.length / 2)] || 1;
-    const ymax = Math.max(1.6, ...pts.map(p => p.activity)) + 0.1;
+    const ymax = Math.max(1.6, ...pts.map(p => p.act)) + 0.15;
     const xmax = Math.max(...pts.map(p => p.total)) * 1.15;
-
-    const traces = Object.keys(TIERCOL).map(t => {
-      const sub = pts.filter(p => p.a.tier === t);
+    const thr = pts.map(p => p.total).sort((a, b) => b - a)[Math.min(13, pts.length - 1)] || 0; // label top ~14
+    const colMap = dim === "keyword" ? KWCOL : TIERCOL;
+    const glist = dim === "keyword" ? KWGROUPS : Object.keys(TIERCOL);
+    const ss = dim === "keyword" ? 0.22 : 0.6;
+    const traces = glist.map(gk => {
+      const sub = pts.filter(p => p.ck === gk);
+      if (!sub.length) return null;
       return {
-        type: "scatter", mode: "markers+text", name: tierShort(t),
-        x: sub.map(p => p.total), y: sub.map(p => +p.activity.toFixed(2)),
-        text: sub.map(p => p.a.code), textposition: "top center", textfont: { size: 10 },
-        marker: { size: sub.map(p => 12 + p.total * 0.6), color: TIERCOL[t], opacity: .8, line: { color: "#fff", width: 1 } },
-        hovertext: sub.map(p => `<b>${codeName(p.a)}</b><br>누적 ${p.total}${UL}<br>활동지수 ${p.activity.toFixed(2)}`),
+        type: "scatter", mode: "markers+text", name: sub[0].cn,
+        x: sub.map(p => p.total), y: sub.map(p => +p.act.toFixed(2)),
+        text: sub.map(p => p.total >= thr ? p.label : ""), textposition: "top center", textfont: { size: 9 },
+        marker: { size: sub.map(p => 10 + p.total * ss), color: colMap[gk] || "#888", opacity: .78, line: { color: "#fff", width: 1 } },
+        hovertext: sub.map(p => `<b>${p.full}</b><br>누적 ${p.total}<br>활동지수 ${p.act.toFixed(2)}`),
         hoverinfo: "text",
       };
-    });
-
+    }).filter(Boolean);
     const quad = (x, y, txt, col) => ({ x, y, xref: "x", yref: "y", text: txt, showarrow: false, font: { size: 12, color: col }, opacity: .55 });
     Plotly.newPlot("chart-scatter", traces, Object.assign({}, layoutBase, {
-      xaxis: { title: "누적 " + UL + "수 (SCALE)", range: [0, xmax], zeroline: false },
+      xaxis: { title: "누적 " + (dim === "keyword" ? "키워드 적중" : UL) + "수 (SCALE)", range: [0, xmax], zeroline: false },
       yaxis: { title: "활동지수 (ACTIVITY)", range: [0, ymax] },
-      legend: { orientation: "h", y: 1.08 },
+      legend: { font: { size: 9 } }, margin: { l: 56, r: dim === "keyword" ? 140 : 24, t: 16, b: 44 },
       shapes: [
         { type: "line", x0: xmed, x1: xmed, y0: 0, y1: ymax, line: { color: "#cbd5e1", dash: "dot" } },
         { type: "line", x0: 0, x1: xmax, y0: 1, y1: 1, line: { color: "#cbd5e1", dash: "dot" } },
@@ -204,12 +229,13 @@
     }), CONFIG);
   }
 
-  wire("toggle-scatter", drawScatter);
+  wire("toggle-scatter", g => { curGroup = g; drawScatter(); });
+  wire("toggle-scatter-dim", g => { curDim = g; drawScatter(); });
   wire("toggle-trend", drawTrend);
   wire("toggle-confyear", drawConfYear);
   const hasKW = typeof KW !== "undefined";
   if (hasKW) wire("toggle-kw", drawKw);
-  drawScatter("all");
+  drawScatter();
   drawTrend("all");
   drawConfYear("IEDM");
   if (hasKW) drawKw("gap");
