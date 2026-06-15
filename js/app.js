@@ -87,6 +87,19 @@
         </ul></div>`;
   })();
 
+  /* ---------- drill-down: area -> paper titles ---------- */
+  const CONFCOL = { IEDM: "#2563eb", ISSCC: "#ea580c", VLSI: "#16a34a", KCS: "#7c3aed" };
+  function showDrill(code) {
+    const el = document.getElementById("drill");
+    if (!el || typeof TITLES === "undefined" || !TITLES[code]) return;
+    const a = A.find(x => x.code === code);
+    const list = TITLES[code];
+    const items = list.slice(0, 200).map(([t, c, y]) =>
+      `<li><span class="conf" style="background:${CONFCOL[c] || "#888"}">${c}</span><span>${t} <span style="color:#94a3b8">· ${y}</span></span></li>`).join("");
+    el.innerHTML = `<h4>${code} ${a ? a.name : ""} — 논문 ${list.length}편 ${list.length > 200 ? "(상위 200 표시)" : ""}</h4><ul>${items}</ul>`;
+  }
+  function areaFromLabel(s) { return (s || "").split(" ")[0]; }
+
   const layoutBase = {
     margin: { l: 60, r: 24, t: 16, b: 48 },
     font: { family: "Segoe UI, Malgun Gothic, sans-serif", size: 12, color: "#0f172a" },
@@ -124,7 +137,7 @@
         { x: 0, y: 1.04, xref: "paper", yref: "paper", text: "← 해외 집중", showarrow: false, font: { color: "#ea580c", size: 12 } },
         { x: 1, y: 1.04, xref: "paper", yref: "paper", text: "국내 집중 →", showarrow: false, font: { color: "#2563eb", size: 12 }, xanchor: "right" },
       ],
-    }), CONFIG);
+    }), CONFIG).then(gd => gd.on("plotly_click", e => showDrill(areaFromLabel(e.points[0].y))));
   })();
 
   /* ---------- 02. activity scatter ---------- */
@@ -199,7 +212,9 @@
         quad(xmed * 0.4, 0.12, "Niche", "#94a3b8"),
         quad(xmax * 0.82, 0.12, "Mature", "#64748b"),
       ],
-    }), CONFIG);
+    }), CONFIG).then(gd => gd.on("plotly_click", e => {
+      const p = e.points[0]; if (curDim === "area" && p.text) showDrill(p.text);
+    }));
   }
 
   /* ---------- 03. season trend (share%) ---------- */

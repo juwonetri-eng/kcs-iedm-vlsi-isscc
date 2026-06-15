@@ -54,6 +54,13 @@ main{padding:28px 0 60px}
 #chart-kw{height:640px}
 #chart-inst{height:600px}
 #chart-quad{height:560px}
+.drill{margin:8px 2px 4px;border-top:1px dashed var(--line);padding-top:10px}
+.drill-hint{color:var(--muted);font-size:13px;margin:6px 2px}
+.drill h4{margin:6px 2px 8px;font-size:15px}
+.drill .conf{display:inline-block;min-width:46px;font-size:11px;font-weight:700;border-radius:5px;padding:1px 6px;margin-right:8px;color:#fff}
+.drill ul{max-height:340px;overflow:auto;margin:0;padding:0;list-style:none;border:1px solid var(--line);border-radius:10px}
+.drill li{font-size:13px;padding:6px 10px;border-bottom:1px solid #f1f5f9;display:flex;align-items:flex-start;gap:2px}
+.drill li:nth-child(even){background:#f8fafc}
 
 footer{color:var(--muted);font-size:12px;padding:8px 2px 0}
 footer code{background:#e2e8f0;padding:1px 5px;border-radius:4px}
