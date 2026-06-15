@@ -3,6 +3,7 @@
   const A = DASH.areas;                       // [{code,name,tier}]
   const S = DASH.seasons;                      // 3 seasons
   const N = S.length;
+  const UL = DASH.unit === "papers" ? "논문" : "세션";   // unit label
   const TIERCOL = {
     "Devices & Process Technology": "#2563eb",
     "Circuits & Systems": "#ea580c",
@@ -18,7 +19,7 @@
     const total = Object.values(cf).reduce((x, y) => x + y, 0);
     const ovs = DASH.overseas.reduce((s, c) => s + cf[c], 0);
     const items = [
-      ["총 세션", total], ["국내 KCS", cf.KCS], ["해외 3대", ovs],
+      ["총 " + UL, total], ["국내 KCS", cf.KCS], ["해외 3대", ovs],
       ["학회", 4], ["시즌", N],
     ];
     document.getElementById("kpis").innerHTML = items.map(
@@ -48,8 +49,8 @@
     const colors = rows.map(r => r.gap >= 0 ? "#2563eb" : "#ea580c");
     const hover = rows.map(r =>
       `<b>${codeName(r.a)}</b><br>국내 ${r.dShare.toFixed(1)}% ` +
-      `(${DASH.totalDomestic[r.a.code]}세션)<br>해외 ${r.oShare.toFixed(1)}% ` +
-      `(${DASH.totalOverseas[r.a.code]}세션)<br>차이 ${r.gap >= 0 ? "+" : ""}${r.gap.toFixed(1)}pp`);
+      `(${DASH.totalDomestic[r.a.code]}${UL})<br>해외 ${r.oShare.toFixed(1)}% ` +
+      `(${DASH.totalOverseas[r.a.code]}${UL})<br>차이 ${r.gap >= 0 ? "+" : ""}${r.gap.toFixed(1)}pp`);
 
     Plotly.newPlot("chart-gap", [{
       type: "bar", orientation: "h", x, y, marker: { color: colors },
@@ -93,14 +94,14 @@
         x: sub.map(p => p.total), y: sub.map(p => +p.activity.toFixed(2)),
         text: sub.map(p => p.a.code), textposition: "top center", textfont: { size: 10 },
         marker: { size: sub.map(p => 12 + p.total * 0.6), color: TIERCOL[t], opacity: .8, line: { color: "#fff", width: 1 } },
-        hovertext: sub.map(p => `<b>${codeName(p.a)}</b><br>누적 ${p.total}세션<br>활동지수 ${p.activity.toFixed(2)}`),
+        hovertext: sub.map(p => `<b>${codeName(p.a)}</b><br>누적 ${p.total}${UL}<br>활동지수 ${p.activity.toFixed(2)}`),
         hoverinfo: "text",
       };
     });
 
     const quad = (x, y, txt, col) => ({ x, y, xref: "x", yref: "y", text: txt, showarrow: false, font: { size: 12, color: col }, opacity: .55 });
     Plotly.newPlot("chart-scatter", traces, Object.assign({}, layoutBase, {
-      xaxis: { title: "누적 세션수 (SCALE)", range: [0, xmax], zeroline: false },
+      xaxis: { title: "누적 " + UL + "수 (SCALE)", range: [0, xmax], zeroline: false },
       yaxis: { title: "활동지수 (ACTIVITY)", range: [0, ymax] },
       legend: { orientation: "h", y: 1.08 },
       shapes: [
@@ -127,7 +128,7 @@
       legendgroup: a.tier,
     }));
     Plotly.newPlot("chart-trend", traces, Object.assign({}, layoutBase, {
-      xaxis: { title: "" }, yaxis: { title: "세션 비중 (%)" },
+      xaxis: { title: "" }, yaxis: { title: UL + " 비중 (%)" },
       legend: { font: { size: 10 } }, margin: { l: 56, r: 200, t: 10, b: 36 },
       hovermode: "closest",
     }), CONFIG);

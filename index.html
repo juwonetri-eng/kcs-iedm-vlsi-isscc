@@ -12,10 +12,10 @@
   <div class="wrap">
     <p class="eyebrow">ETRI 반도체연구정책센터 · 기술동향 분석</p>
     <h1>반도체 4대 학회 기술동향 대시보드</h1>
-    <p class="lede">국내 <b>KCS</b> 와 해외 3대 학회 <b>IEDM · ISSCC · VLSI</b> 의 세션을
+    <p class="lede">국내 <b>KCS</b> 와 해외 3대 학회 <b>IEDM · ISSCC · VLSI</b> 의 발표 논문을
        공통 기술분류(19개 영역)에 매핑해 국내·해외 연구동향을 비교합니다.</p>
     <div class="kpis" id="kpis"></div>
-    <p class="note">분석 단위: 세션 · 발행시기 코호트(시즌) = VLSI(Y)+IEDM(Y)+ISSCC(Y+1)+KCS(Y+1)</p>
+    <p class="note">분석 단위: 논문(세션 영역 상속) · 발행시기 코호트(시즌) = VLSI(Y)+IEDM(Y)+ISSCC(Y+1)+KCS(Y+1)</p>
   </div>
 </header>
 
@@ -57,7 +57,7 @@
   </section>
 
   <footer>
-    <p>데이터: IEDM·ISSCC·VLSI·KCS 프로그램 PDF에서 세션 추출 후 공통 분류 매핑(규칙 기반).
+    <p>데이터: IEDM·ISSCC·VLSI·KCS 프로그램 PDF에서 논문 추출 후 소속 세션의 공통분류를 상속(규칙 기반).
        KCS 2025는 OCR 복원. 생성: <code>scripts/build_dashboard_data.py</code> → <code>js/data.js</code>.</p>
   </footer>
 </main>
