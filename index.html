@@ -122,8 +122,12 @@
   </section>
 
   <footer>
-    <p>데이터: IEDM·ISSCC·VLSI·KCS 프로그램 PDF에서 논문 추출 후 소속 세션의 공통분류를 상속(규칙 기반).
-       KCS 2025는 OCR 복원. 생성: <code>scripts/build_dashboard_data.py</code> → <code>js/data.js</code>.</p>
+    <p><b>방법론</b>: IEDM·ISSCC·VLSI·KCS 프로그램 PDF → 논문(3,903편) 추출 → 소속 세션의
+       공통 기술분류(19영역) 상속 → 키워드(약 55종)·한국 기관 매칭. 전체 재생성:
+       <code>python scripts/build_all.py</code>.</p>
+    <p><b>한계</b>: ① 규칙 기반 자동 분류(미세 오분류 가능) ② KCS 2025는 이미지 PDF를 OCR 복원
+       ③ 키워드/기관은 제목·소속 텍스트 매칭이라 미검출(과소계상) 가능 ④ 국내=KCS(국내 학회),
+       해외=국제 학회라 발표 채널 차이가 섞임 → "기관 분석"으로 보정. 정량 추세 해석용.</p>
   </footer>
 </main>
 
