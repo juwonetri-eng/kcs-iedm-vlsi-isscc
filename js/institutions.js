@@ -277,5 +277,273 @@ const INST = {
   "company": 304,
   "university": 274,
   "institute": 8
+ },
+ "areaTopInst": {
+  "D1": [
+   [
+    "Samsung",
+    17
+   ],
+   [
+    "SK hynix",
+    6
+   ],
+   [
+    "UNIST",
+    4
+   ]
+  ],
+  "D2": [
+   [
+    "Samsung",
+    90
+   ],
+   [
+    "SK hynix",
+    28
+   ],
+   [
+    "POSTECH",
+    17
+   ]
+  ],
+  "D3": [
+   [
+    "Samsung",
+    10
+   ],
+   [
+    "KAIST",
+    4
+   ],
+   [
+    "Hanyang Univ",
+    2
+   ]
+  ],
+  "D4": [
+   [
+    "Samsung",
+    3
+   ],
+   [
+    "SK hynix",
+    1
+   ],
+   [
+    "POSTECH",
+    1
+   ]
+  ],
+  "D5": [
+   [
+    "KAIST",
+    5
+   ],
+   [
+    "Samsung",
+    5
+   ],
+   [
+    "Seoul Nat'l Univ",
+    1
+   ]
+  ],
+  "D6": [
+   [
+    "Samsung",
+    4
+   ],
+   [
+    "KAIST",
+    2
+   ],
+   [
+    "Inha Univ",
+    1
+   ]
+  ],
+  "D7": [
+   [
+    "Samsung",
+    22
+   ],
+   [
+    "Sungkyunkwan(SKKU)",
+    9
+   ],
+   [
+    "KAIST",
+    8
+   ]
+  ],
+  "D8": [
+   [
+    "Samsung",
+    3
+   ],
+   [
+    "Seoul Nat'l Univ",
+    2
+   ],
+   [
+    "POSTECH",
+    1
+   ]
+  ],
+  "D9": [
+   [
+    "Samsung",
+    6
+   ],
+   [
+    "POSTECH",
+    3
+   ],
+   [
+    "SK hynix",
+    2
+   ]
+  ],
+  "C1": [
+   [
+    "KAIST",
+    11
+   ],
+   [
+    "POSTECH",
+    7
+   ],
+   [
+    "Seoul Nat'l Univ",
+    6
+   ]
+  ],
+  "C2": [
+   [
+    "Samsung",
+    14
+   ],
+   [
+    "Seoul Nat'l Univ",
+    4
+   ],
+   [
+    "KAIST",
+    4
+   ]
+  ],
+  "C3": [
+   [
+    "Samsung",
+    16
+   ],
+   [
+    "KAIST",
+    7
+   ],
+   [
+    "Hanyang Univ",
+    2
+   ]
+  ],
+  "C4": [
+   [
+    "Samsung",
+    8
+   ],
+   [
+    "KAIST",
+    2
+   ],
+   [
+    "POSTECH",
+    2
+   ]
+  ],
+  "C5": [
+   [
+    "Samsung",
+    14
+   ],
+   [
+    "Sogang Univ",
+    10
+   ],
+   [
+    "Korea Univ",
+    3
+   ]
+  ],
+  "C6": [
+   [
+    "Samsung",
+    5
+   ],
+   [
+    "POSTECH",
+    3
+   ],
+   [
+    "KAIST",
+    1
+   ]
+  ],
+  "C7": [
+   [
+    "KAIST",
+    4
+   ],
+   [
+    "Samsung",
+    4
+   ],
+   [
+    "POSTECH",
+    4
+   ]
+  ],
+  "X1": [
+   [
+    "Samsung",
+    6
+   ],
+   [
+    "KAIST",
+    6
+   ],
+   [
+    "SK hynix",
+    5
+   ]
+  ],
+  "X2": [
+   [
+    "Samsung",
+    4
+   ],
+   [
+    "KAIST",
+    3
+   ],
+   [
+    "SK hynix",
+    1
+   ]
+  ],
+  "SP": [
+   [
+    "Samsung",
+    9
+   ],
+   [
+    "SK hynix",
+    4
+   ],
+   [
+    "POSTECH",
+    1
+   ]
+  ]
  }
 };

@@ -328,6 +328,22 @@
       }), CONFIG);
       return;
     }
+    if (view === "lead") {
+      const rows = Object.keys(INST.areaTopInst || {}).map(a => {
+        const t = INST.areaTopInst[a][0];
+        return { a, name: t[0], cnt: t[1], top3: INST.areaTopInst[a] };
+      }).filter(r => r.cnt >= 2).sort((x, y) => x.cnt - y.cnt);
+      Plotly.newPlot("chart-inst", [{
+        type: "bar", orientation: "h", y: rows.map(r => r.a + " " + (INST.areaNames[r.a] || "")),
+        x: rows.map(r => r.cnt), marker: { color: rows.map(r => TIERCOL[areaTier[r.a]] || "#888") },
+        text: rows.map(r => r.name + " (" + r.cnt + ")"), textposition: "auto", textfont: { size: 11 },
+        hovertext: rows.map(r => `<b>${INST.areaNames[r.a]}</b><br>` + r.top3.map(t => `${t[0]}: ${t[1]}편`).join("<br>")), hoverinfo: "text",
+      }], Object.assign({}, layoutBase, {
+        xaxis: { title: "주도 한국 기관의 해외 학회 참여 편수" },
+        yaxis: { automargin: true, tickfont: { size: 10 } }, margin: { l: 250, r: 20, t: 16, b: 44 },
+      }), CONFIG);
+      return;
+    }
     if (view === "trend") {
       const confs = ["IEDM", "ISSCC", "VLSI"];
       const col = { IEDM: "#2563eb", ISSCC: "#ea580c", VLSI: "#16a34a" };
