@@ -101,6 +101,23 @@
 
   <section class="card">
     <div class="sec-head"><span class="num">06</span>
+      <div><h2>도메인별 연도 추이 (Timeline)</h2>
+      <p>3개 주요 도메인(소자·공정 / 회로·시스템 / 교차·신흥)의 연도별 발표 논문 추이. 시간에 따른 기술 무게중심 변화를 추적합니다.</p></div>
+    </div>
+    <div id="chart-domain-timeline" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">07</span>
+      <div><h2>신흥 vs 성숙 기술 분포</h2>
+      <p>논문 제목에서 신흥 키워드(양자, 신경형, 포토닉, 3D, 칩렛 등) 검출로 신흥 기술 비중을 추정.
+         "교차·신흥" 도메인과는 별개의 휴리스틱 분류입니다.</p></div>
+    </div>
+    <div id="chart-emg-mature" class="plot"></div>
+  </section>
+
+  <section class="card">
+    <div class="sec-head"><span class="num">08</span>
       <div><h2>기관 분석 — 해외 학회 속 한국 기관</h2>
       <p>IEDM·ISSCC·VLSI 논문 중 <b>한국 기관(기업·대학·연구소) 참여 논문</b> 비중(저자 소속 기준,
          공동연구 포함). "영역별 참여율"이 낮은 곳 = 한국이 국제적으로도 약한 분야.</p></div>
@@ -115,7 +132,7 @@
   </section>
 
   <section class="card">
-    <div class="sec-head"><span class="num">07</span>
+    <div class="sec-head"><span class="num">09</span>
       <div><h2>한국 역량 포지셔닝</h2>
       <p>X = 해외 학회 내 한국 참여율(국제 경쟁력), Y = 국내 학회(KCS) 비중(국내 무게중심).
          <b>우상=정착 강점</b> · <b>우하=산업 주도(국제 강·국내 학회 약)</b> ·
@@ -145,6 +162,7 @@
 <script src="js/titles.js"></script>
 <script src="js/keywords.js"></script>
 <script src="js/institutions.js"></script>
+<script src="js/advanced.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
